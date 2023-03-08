@@ -1,0 +1,213 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 de mar. de 2023, 22:22:27
+    Author     : BEMK
+*/
+
+.barra-topo{
+    border-bottom: 1px solid #e7ebf3;
+}
+
+.logo-principal{
+    padding: 15px 0;
+}
+.logo{
+   height: 50px;
+   width: 180px;
+   vertical-align: middle;
+}
+@media only screen and (max-width: 768px) {
+    .logo{
+   height: 45px;
+   width: auto;
+   vertical-align: middle;
+}
+}
+.topo-info{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #e7ebf3;
+}
+@media only screen and (max-width: 768px) {
+.topo-info{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #e7ebf3;
+}
+}
+.topo-info-icone{
+    color: #0e5af2;
+    font-size: 24px;
+    margin-right: 20px; 
+}
+@media only screen and (max-width: 768px) {
+    .topo-info-icone{
+    color: #0e5af2;
+    font-size: 20px;
+    margin-right: 10px; 
+}
+}
+
+.media-body{
+    flex: 1;
+}
+.topo-info-label{
+    font-size: 16px;
+    color: #785aa289;
+    display: block;
+    margin-bottom: 2px;
+}
+@media only screen and (max-width: 768px) {
+    .topo-info-label{
+    font-size: 13px;
+    color: #785aa289;
+    display: block;
+    margin-bottom: 2px;
+}
+}
+
+.topo-info-link{
+    color: #050030;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+@media only screen and (max-width: 768px) {
+    .topo-info-link{
+    color: #050030;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+}
+
+.topo-info-link a{
+text-decoration: none;
+color: #050030;
+}
+
+/*  navbar */
+.fundo-navbar{
+    background-color: #050030;
+}
+.nav-item{
+    padding-left: 20px;
+}
+.nav-link{
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Exo', sans-serif;
+}
+.nav-link:hover{
+    color: #FFD70F;
+    font-weight: 600;
+    font-family: 'Exo', sans-serif;
+}
+.nav-link:focus{
+    color: #FFD70F;
+    font-weight: 600;
+    font-family: 'Exo', sans-serif;
+}
+.nav-link:active{
+    color: #FFD70F;
+    font-weight: 600;
+    font-family: 'Exo', sans-serif;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    margin-top: 9px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    margin-left: 10px;
+    box-shadow: 0 0 2px 1px #e7ebf3;
+    border-bottom: 3px solid #FFD70F;
+    border-top: 3px solid #FFD70F;
+}
+.navbar-expand-lg .navbar-nav .dropdown-item {
+    padding: 10px;
+    border-bottom: 1px solid #e7ebf3;
+    color:#050030;
+    font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .dropdown-item:hover{
+    padding: 10px;
+    border-bottom: 1px solid #e7ebf3;
+    color:#785aa2;
+    font-weight: 500;
+    background-color: #0500302e
+}
+.logo-mobile{
+    width: auto;
+    height: 50px;
+}
+
+.icone-menu-mobile{
+   color:#ffffff;
+   font-size: 25px; 
+   padding-top: 3px; 
+   padding-bottom: 1px; 
+   border: 1px solid #785aa2;
+   background-color: #785aa2;
+   border-radius: 10px;
+}
+
+.icone-menu-mobile:hover{
+   color:#FFD70F;
+   font-size: 25px; 
+   padding-top: 3px; 
+   padding-bottom: 1px; 
+   border: 1px solid #050030;
+   background-color: #050030;
+}
+.topo-info-link .btn-associese{
+    background-color: #785aa2;
+    color:#ffffff;  
+}
+.topo-info-link .btn-associese:hover{
+    background-color: #050030;
+    color:#FFD70F;
+}
+/*  navbar */
+
+/*  menu mobile */
+.fundo-menu-mobile{
+    background-color: #e7ebf3;
+}
+.link-menu{
+    color:#050030;
+    border-bottom: 1px solid #785aa2;
+    padding: 15px;
+}
+.link-menu:hover{
+    color:#785aa2;
+    border-bottom: 1px solid #FFD70F;
+    padding: 15px;
+    background-color: #ffffff;
+}
+.link-submenu{
+    background-color: #785aa22e;
+    color:#050030;
+    padding: 15px;
+}
+.link-submenu:hover{
+    color:#785aa2;
+    padding: 15px;
+    background-color: #ffffff;
+}
+#federacao, #noticias{
+    border-bottom: 3px solid #FFD70F;
+}
+/*  menu mobile */
+
+
