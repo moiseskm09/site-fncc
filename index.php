@@ -37,11 +37,11 @@
           </div>
         </div>
       </section>
-      <section id="servicos-home" class="espacamento">
+      <section id="servicos-home" class="espacamento desc-servicos">
         <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
           <h5 class="titulo-servicos text-white">Conheça alguns serviços da <strong>FNCC</strong> para as <span class="fw-bold">COOPERATIVAS DE CRÉDITO</span>.</h5>
           <div class="row align-items-center justify-content-center">
-            <div class="col-12 col-lg-9 col-md-9">
+            <div class="col-10 col-lg-9 col-md-9">
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <a href="#Representatividade" data-bs-toggle="modal" data-bs-target="#Representatividade">
@@ -82,7 +82,7 @@
           <div class="row">
             <div class="col-12">
               <div class="text-center mt-3">
-              <a href="https://fncc.com.br/servicos" class="btn btn-outline-primary btn-sm">CONHEÇA TODOS OS SERVIÇOS <i class="bi bi-arrow-right-circle"></i></a>
+                  <a href="#" id="btn-mais-servicos" class="btn btn-padrao btn-md">CONHEÇA TODOS OS SERVIÇOS <i class="bi bi-arrow-right-circle"></i></a>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@
                 <p>A FNCC é uma federação constituída para representar o interesse das suas cooperativas associadas junto aos órgãos governamentais, instituições financeiras e entidades de todo o segmento do cooperativismo de crédito, apoiando as suas federadas no desenvolvimento das suas atividades.</p>
                 <p>Por meio de uma gestão participativa e transparente, que promove a doutrina cooperativista, a FNCC busca organizar em comum e maior escala, serviços imprescindíveis para suas federadas, promovendo assistência e oferecendo parcerias estratégicas, visando o contínuo aprimoramento técnico e profissional de todos os integrantes do seu quadro social.</p>
                 <div class="alinhamento-centro">
-                  <button class="btn btn-padrao btn-md">SAIBA MAIS SOBRE A FNCC <i class="bi bi-arrow-right-circle"></i></button>
+                  <a href="#" class="btn btn-padrao btn-md">SAIBA MAIS SOBRE A FNCC <i class="bi bi-arrow-right-circle"></i></a>
                 </div>
               </div>
             </div>
@@ -119,30 +119,30 @@
               </div> 
             </div>
           </div>
-          
+          </div>
 <div class="container owl-2-style">
 <div class="owl-carousel owl-2">
 <div class="media-29101">
-<img src="assets/imagens/icones/veiculo.png" alt="Image" class="img-fluid">
+<img src="assets/imagens/cooperativas/cooperjohnson.jpg" alt="Image" class="img-fluid">
 </div>
 <div class="media-29101">
-<img src="assets/imagens/icones/veiculo.png" alt="Image" class="img-fluid">
+<img src="assets/imagens/cooperativas/cooperativa-ericsson.jpg" alt="Image" class="img-fluid">
 </div>
   <div class="media-29101">
-<img src="assets/imagens/icones/veiculo.png" alt="Image" class="img-fluid">
+<img src="assets/imagens/cooperativas/CoopRB.png" alt="Image" class="img-fluid">
 </div>
   <div class="media-29101">
-<img src="assets/imagens/icones/veiculo.png" alt="Image" class="img-fluid">
+<img src="assets/imagens/cooperativas/crediBasf.jpg" alt="Image" class="img-fluid">
 </div>
 <div class="media-29101">
-<img src="assets/imagens/icones/veiculo.png" alt="Image" class="img-fluid">
+<img src="assets/imagens/cooperativas/coopincor.jpg" alt="Image" class="img-fluid">
 </div>
 <div class="media-29101">
-<img src="assets/imagens/icones/veiculo.png" alt="Image" class="img-fluid">
+<img src="assets/imagens/cooperativas/cooperalpina.jpg" alt="Image" class="img-fluid">
 </div>
 </div>
 </div>
-        </div>
+        
       </section>
       
       <section id="representatividade" class="espacamento">

@@ -111,7 +111,7 @@ body{
     text-align: center;
 }
 
-#servicos-home a{
+.desc-servicos a{
     text-decoration: none;
     color:#050030;
 }
@@ -206,7 +206,14 @@ body{
     color:#ffffff;
 }
 
-
+#btn-mais-servicos {
+    background-color: #050030;
+    color:#FFD70F;  
+}
+#btn-mais-servicos:hover{
+    background-color: #785aa2;
+    color:#ffffff;
+}
 .imagemR{
     background-color: #050030;
     padding: 15px;
@@ -344,4 +351,13 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     margin: -0.3em 0 22px 0;
+}
+
+.media-29101 img{
+    width: auto;
+    height: auto;
+}
+
+.owl-dots, .owl-nav{
+    visibility: hidden;
 }
