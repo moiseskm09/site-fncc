@@ -23,12 +23,13 @@
           <section class="banner">
           <div class="container">
               <div class="row align-items-center" data-aos="zoom-in-up" data-aos-duration="700">
-                  <div class="col-lg-8 col-md-8 col-12">
-                      <div class="frase-efeito">
+                <div class="col-lg-12 col-md-12 col-12">
+                      <div class="frase-efeito text-center">
                       <h1>Por que escolher a FNCC?</h1>
                       <h4>PORQUE <strong>TRANSFORMAR PESSOAS POR MEIO DO COOPERATIVISMO</strong> É O <span class="tachado">NOSSO PROPÓSITO</span>!</h4>
                       </div>
                       </div>
+                <!--
                   <div class="col-lg-4 col-md-4 col-12 text-center">
                       <h5 class="mt-3 mb-3 titulo-servicos">Conheça os serviços da <strong>FNCC</strong> para as <span class="tachado">COOPERATIVAS DE CRÉDITO</span>.</h5>
                       <div class="servicos-banner">
@@ -118,9 +119,67 @@
                           </a>
                       </div>
                   </div>
+                -->
               </div>
           </div>
           </section>
+        <section id="servicos-home" class="espacamento">
+              <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
+                      <div class="row row-cols-2 row-cols-md-6 g-4" >
+  <div class="col">
+    <div class="card h-100 p-0">
+      <div class="card-body text-center p-1">
+        <h5><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">CANAL DE ATENDIMENTO</h5>
+      </div>
+    </div>
+  </div>
+                          <div class="col">
+    <div class="card h-100">
+      <div class="card-body text-center p-1">
+        <h5><img src="assets/imagens/icones/advice.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">CONSULTORIA JURÍDICA</h5>
+      </div>
+    </div>
+  </div>
+                          <div class="col">
+    <div class="card h-100">
+      <div class="card-body text-center p-1">
+        <h5><img src="assets/imagens/icones/veiculo.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">CONSULTORIA TÉCNICA</h5>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card h-100 ">
+      <div class="card-body text-center p-1">
+        <h5><img src="assets/imagens/icones/019-document.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">MODELOS DE DOCUMENTOS</h5>
+      </div>
+    </div>
+  </div>
+                          <div class="col">
+    <div class="card h-100">
+      <div class="card-body text-center">
+        <h5><img src="assets/imagens/icones/customer-service.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">OUVIDORIA</h5>
+      </div>
+    </div>
+  </div>
+                          <div class="col">
+    <div class="card h-100">
+      <div class="card-body text-center p-0">
+        <h5><img src="assets/imagens/icones/megafone.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">CANAL DE INDÍCIOS DE ILICITUDE</h5>
+      </div>
+    </div>
+  </div>
+
+</div>
+                  </div>
+          </section>
+        
+        
           <section id="quem-somos" class="espacamento" data-aos="zoom-in-up" data-aos-duration="700">
               <div class="container">
               <div class="row flex-row-reverse align-items-center gx-70">
@@ -183,7 +242,7 @@
     <div class="col">
     <div class="card h-100 ">
       <div class="card-body text-center p-1">
-        <h5><img <img src="assets/imagens/home/carteira.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5><img src="assets/imagens/home/carteira.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
         <h5 class="card-title">R$ 989 Milhões</h5>
         <p class="card-text text-center">Carteira de Empréstimos</p>
       </div>

@@ -25,7 +25,7 @@ body{
 
 
 .banner{
-    min-height: 517px;
+     min-height: 400px;
      background-color: #e7ebf3;
      background-image: url("../imagens/home/banner.webp");
      background-size: cover;
@@ -74,6 +74,38 @@ body{
     font-weight: 600;
     line-height: 1.6;
 }
+
+#servicos-home{
+    margin-top: -100px;
+}
+#servicos-home .card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0px #050030;  
+}
+
+#servicos-home .card:hover{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px #785aa2;  
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+#servicos-home .card-img-top{
+    width: 50px;
+    height: 50px;
+}
+#servicos-home h5{
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+#servicos-home h5{
+    font-size: 18px;
+}
+}
+
 .servicos-banner .card-body:hover{
     border-radius: 5px;
     background-color: #785aa22e;
@@ -159,13 +191,6 @@ body{
     box-shadow: 0 3px 3px 0px #050030;  
 }
 
-#representatividade .card:hover{
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 0 3px 3px #785aa2;  
-    transition: transform 0.5s;
-    transform: scale(1.1);
-}
 
 #representatividade .card-img-top{
     width: 60px;
@@ -187,13 +212,11 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-#representatividade h6{
+#representatividade p{
     font-size: 14px;
 }
 }
-#representatividade h4, #representatividade h6{
-    color: #ffffff;
-}
+
 
 .servicos-banner img{
     height: 35px;
