@@ -13,14 +13,16 @@ body{
 }
 
 .conteudo-tela{
-    margin-top: 140px;
+    margin-top: 0;
 }
 
+
 @media only screen and (max-width: 768px) {
-    .conteudo-tela{
-    margin-top: 76px;
+.conteudo-tela{
+    margin-top: 0;
 }
 }
+
 
 .banner{
     min-height: 517px;
@@ -28,7 +30,7 @@ body{
      background-image: url("../imagens/home/banner.webp");
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: 50% 30%;
+     background-position: 50% 50%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -73,9 +75,9 @@ body{
     line-height: 1.6;
 }
 .servicos-banner .card-body:hover{
-    box-shadow: 0  0 2px 2px #FFD70F;
     border-radius: 5px;
     background-color: #785aa22e;
+    border-bottom: none;
 }
 .servicos-banner a{
     color: #050030;
@@ -105,10 +107,10 @@ body{
     padding-bottom: 30px;
 }
 
-#quem-somos h4 {
+#quem-somos h4, #posts h4{
     font-size: 48px;
 }
-#quem-somos p {
+#quem-somos p, #posts p {
     text-align: justify;
 }
 
@@ -127,12 +129,6 @@ body{
     color:#ffffff;
 }
 
-#representatividade{
-    background-image: url("../imagens/home/representatividade.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
 .imagemR{
     background-color: #050030;
@@ -156,19 +152,38 @@ body{
     max-width: 50%;
 }
 }
-#representatividade h4{
-    font-size: 30px;
+
+#representatividade .card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 0px #050030;  
+}
+
+#representatividade .card:hover{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px #785aa2;  
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+#representatividade .card-img-top{
+    width: 60px;
+    height: 60px;
+}
+#representatividade h5{
+    font-size: 20px;
     margin-bottom: -2px;
 }
 
 @media only screen and (max-width: 768px) {
-#representatividade h4{
-    font-size: 20px;
+#representatividade h5{
+    font-size: 18px;
     margin-bottom: -2px;
 }
 }
-#representatividade h6{
-    font-size: 18px;
+#representatividade p{
+    font-size: 13px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -180,3 +195,87 @@ body{
     color: #ffffff;
 }
 
+.servicos-banner img{
+    height: 35px;
+    width: 35px;
+}
+
+#posts{
+    background-color: #F6F8FB;
+    background-image: url("../imagens/home/noticias.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#posts a{
+    text-decoration: none;
+}
+#posts .card{
+    font-family: 'Releway', sans-serif; 
+    border:none;
+    box-shadow: 0 0px 5px 0px #785aa2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+#posts .card-img-top{
+    padding-bottom: 5px;
+}
+
+#posts img{
+    border-radius: 10px;
+}
+
+#posts .card-body{
+    background-color: #ffffff;
+    min-height: 160px;
+    max-height: 100%;
+}
+#posts h5 {
+    color:#050030;
+    font-size: 20px;
+}
+
+#posts p {
+    color:#575757;
+    font-size: 16px;
+}
+
+#posts .card-footer{
+    background-color: transparent;
+    border-top: 2px solid #785aa22e;
+}
+
+.postado{
+    color: #785aa2;
+    background: #785aa22e;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.sec-line-wrap {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin: 30px 0 30px 0;
+}
+
+.sec-line {
+    background-color: #785aa2;
+    flex: 1;
+    height: 2px;
+}
+.sec-line-wrap .sec-title2 {
+    margin: -0.3em 0 -0.4em 0;
+}
+
+.sec-title2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: -0.3em 0 22px 0;
+}

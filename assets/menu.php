@@ -1,6 +1,6 @@
-      <header class="fixed-top bg-white">
+      <header class="bg-white">
     <!-- Barra topo-->
-      <div class="barra-topo">
+      <div class="barra-topo bg-white">
           <div class="container">
               <div class="row justify-content-between align-items-center">
                   <div class="col">
@@ -43,7 +43,6 @@
                   </div>
                   <div class="col-auto topo-info d-lg-flex d-md-none d-lg-none d-xl-none">
                       <div class="media-body">
-                        
                           <div class="topo-info-link text-center">
                               <a href="#menu-mobile" data-bs-toggle="modal" data-bs-target="#menu-mobile" class="btn-menu-mobile"><i class="bi bi-menu-button-wide-fill icone-menu-mobile btn btn-sm"></i></a>
                           </div>
@@ -55,9 +54,9 @@
       <!-- Barra topo-->
       
       <!-- Menu topo-->
-<nav class="navbar navbar-expand-lg fundo-navbar d-none d-lg-flex">
+<nav class="navbar navbar-expand-lg fundo-navbar d-none d-lg-flex menu">
   <div class="container">
-   <a class="navbar-brand d-md-none d-lg-none d-xl-none" href="#">
+   <a class="navbar-brand visually-hidden" href="#">
       <img src="assets/imagens/logofncc.png" alt="LOGO FNCC MOBILE" class="logo-mobile">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

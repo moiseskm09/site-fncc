@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-    <title>Pagina Padrão</title>
+    <title>FNCC - Federação Nacional das Cooperativas de Crédito</title>
     <link rel="icon" type="image/png" sizes="512x512" href="assets/imagens/icones/fncc-logotipo-colorido.png">
     <link rel="icon" type="image/png" sizes="48x48" href="assets/imagens/icones/fncc-logotipo-colorido.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/icones/fncc-logotipo-colorido.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
     <link href="assets/css/menu.css" rel="stylesheet">
+    <link href="assets/css/voltartopo.css" rel="stylesheet">
     <link href="assets/css/aos.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
@@ -35,7 +37,7 @@
                               <div class="card-body p-2">
       <div class="row align-items-center">
           <div class="col-1 text-center">
-              <img src="assets/imagens/icones/atendimento.png" alt="Canal de Atendimento"/>
+              <img src="assets/imagens/icones/central-de-atendimento.png" alt="Canal de Atendimento"/>
           </div>
           <div class="col-11">
               <h6 class="texto-servicos-home">CANAL DE ATENDIMENTO</h6>
@@ -49,7 +51,7 @@
   <div class="card-body p-2">
       <div class="row align-items-center">
           <div class="col-1 text-center">
-              <img src="assets/imagens/icones/consult-juridico.png" alt="Consultoria Jurídica"/>
+              <img src="assets/imagens/icones/advice.png" alt="Consultoria Jurídica"/>
           </div>
           <div class="col-11">
               <h6 class="texto-servicos-home">CONSULTORIA JURÍDICA</h6>
@@ -63,7 +65,7 @@
   <div class="card-body p-2">
       <div class="row align-items-center">
           <div class="col-1 text-center">
-              <img src="assets/imagens/icones/consult-tecnica.png" alt="Consultoria Técnica"/>
+              <img src="assets/imagens/icones/veiculo.png" alt="Consultoria Técnica"/>
           </div>
           <div class="col-11">
               <h6 class="texto-servicos-home">CONSULTORIA TÉCNICA</h6>
@@ -77,7 +79,7 @@
   <div class="card-body p-1">
       <div class="row align-items-center">
           <div class="col-1 text-center">
-              <img src="assets/imagens/icones/modelo-doc.png" alt="Modelo de Documentos"/>
+              <img src="assets/imagens/icones/019-document.png" alt="Modelo de Documentos"/>
           </div>
           <div class="col-11">
               <h6 class="texto-servicos-home">MODELOS DE DOCUMENTOS</h6>
@@ -91,7 +93,7 @@
   <div class="card-body p-2">
       <div class="row align-items-center">
           <div class="col-1 text-center">
-              <img src="assets/imagens/icones/ouvidoria.png" alt="Ouvidoria"/>
+              <img src="assets/imagens/icones/customer-service.png" alt="Ouvidoria"/>
           </div>
           <div class="col-11">
               <h6 class="texto-servicos-home">OUVIDORIA</h6>
@@ -105,7 +107,7 @@
   <div class="card-body p-2">
       <div class="row align-items-center">
           <div class="col-1 text-center">
-              <img src="assets/imagens/icones/denuncias.png" alt="CANAL DE INDÍCIOS DE ILICITUDE"/>
+              <img src="assets/imagens/icones/megafone.png" alt="CANAL DE INDÍCIOS DE ILICITUDE"/>
           </div>
           <div class="col-11">
               <h6 class="texto-servicos-home">CANAL DE INDÍCIOS DE ILICITUDE</h6>
@@ -136,93 +138,143 @@
                       </div>
                       </div>
               </div>
+                  
               </div>
           </section>
-          <section id="representatividade" class="espacamento" >
+          <section id="representatividade" class="espacamento">
               <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
-                  <div class="text-center">
-                      <h2 class="text-white mb-3">REPRESENTATIVIDADE</h2>
+                      <div class="row">
+                          <div class="col-12">
+                             <div class="sec-line-wrap">
+                                 <div class="sec-line"></div>
+                                 <h2 class="sec-title2">REPRESENTATIVIDADE</h2>
+                                 <div class="sec-line"></div>  
+                             </div> 
+                          </div>
+                      </div>
+                      <div class="row row-cols-2 row-cols-md-6 g-4" >
+  <div class="col">
+    <div class="card h-100 p-0">
+      <div class="card-body text-center p-1">
+        <h5><img src="assets/imagens/home/associados.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">159 Mil</h5>
+        <p class="card-text text-center p-0">Cooperados</p>
+      </div>
+    </div>
+  </div>
+                          <div class="col">
+    <div class="card h-100">
+      <div class="card-body text-center p-1">
+        <h5><img src="assets/imagens/home/singulares.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">53</h5>
+        <p class="card-text text-center">Associadas</p>
+      </div>
+    </div>
+  </div>
+                          <div class="col">
+    <div class="card h-100">
+      <div class="card-body text-center p-1">
+        <h5><img src="assets/imagens/home/patrimonio.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">R$ 1,2 Bilhões</h5>
+        <p class="card-text text-center">Patrimônio Líquido</p>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card h-100 ">
+      <div class="card-body text-center p-1">
+        <h5><img <img src="assets/imagens/home/carteira.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+        <h5 class="card-title">R$ 989 Milhões</h5>
+        <p class="card-text text-center">Carteira de Empréstimos</p>
+      </div>
+    </div>
+  </div>
+                          <div class="col">
+    <div class="card h-100">
+      <div class="card-body text-center">
+        <h5><img src="assets/imagens/home/deposito.png" class="card-img-top mb-3" alt="icone"></h5>
+        <h5 class="card-title">R$ 69 Milhões</h5>
+        <p class="card-text text-center">Depósitos</p>
+      </div>
+    </div>
+  </div>
+                          <div class="col">
+    <div class="card h-100">
+      <div class="card-body text-center">
+        <h5><img src="assets/imagens/home/ativo.png" class="card-img-top mb-3" alt="icone"></h5>
+        <h5 class="card-title">R$ 1,4 Bilhões</h5>
+        <p class="card-text text-center">Ativos Administrados</p>
+      </div>
+    </div>
+  </div>
+
+</div>
                   </div>
-                  <div class="row justify-content-between gy-4">
-                      <div class="col-lg-4 col-md-4 col-6">
-                          <div class="row align-items-center mt-2 mb-2">
-                              <div class="col-lg-4 col-md-4 col-12">
-                                  <div class="imagemR text-center mb-2">
-                                      <img src="assets/imagens/home/associados.png" alt="icone"/>
-                                  </div>
-                              </div>
-                              <div class="col-lg-8 col-md-8 col-12">
-                                  <h4 class="h1 alinhamento-centro">159 Mil</h4>
-                                  <h6 class="h5 alinhamento-centro">Cooperados</h6>
-                              </div>
-                          </div>
+          </section>
+          <section id="posts" class="espacamento" data-aos="zoom-in-up" data-aos-duration="700">
+              <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-lg-12 col-md-12 col-12">
+                      <h4 class="">NOTÍCIAS</h4>
                       </div>
-                      <div class="col-lg-4 col-md-4 col-6">
-                          <div class="row align-items-center mt-2 mb-2">
-                              <div class="col-lg-4 col-md-4 col-12">
-                                  <div class="imagemR text-center mb-2">
-                                      <img src="assets/imagens/home/singulares.png" alt="icone"/>
-                                  </div>
-                              </div>
-                              <div class="col-lg-8 col-md-8 col-12">
-                                  <h4 class="h1 alinhamento-centro">53</h4>
-                                  <h6 class="h5 alinhamento-centro">Associadas</h6>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-4 col-md-4 col-6">
-                          <div class="row align-items-center mt-2 mb-2">
-                              <div class="col-lg-4 col-md-4 col-12">
-                                  <div class="imagemR text-center mb-2">
-                                      <img src="assets/imagens/home/patrimonio.png" alt="icone"/>
-                                  </div>
-                              </div>
-                              <div class="col-lg-8 col-md-8 col-12">
-                                  <h4 class="h1 alinhamento-centro">R$ 1,2 Bilhões</h4>
-                                  <h6 class="h5 alinhamento-centro">Patrimônio Líquido</h6>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-4 col-md-4 col-6">
-                          <div class="row align-items-center mt-2 mb-2">
-                              <div class="col-lg-4 col-md-4 col-12">
-                                  <div class="imagemR text-center mb-2">
-                                      <img src="assets/imagens/home/carteira.png" alt="icone"/>
-                                  </div>
-                              </div>
-                              <div class="col-lg-8 col-md-8 col-12">
-                                  <h4 class="h1 alinhamento-centro">R$ 989 Milhões</h4>
-                                  <h6 class="h5 alinhamento-centro">Carteira De Empréstimos</h6>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-4 col-md-4 col-6">
-                          <div class="row align-items-center mt-2 mb-2">
-                              <div class="col-lg-4 col-md-4 col-12">
-                                  <div class="imagemR text-center mb-2">
-                                      <img src="assets/imagens/home/deposito.png" alt="icone"/>
-                                  </div>
-                              </div>
-                              <div class="col-lg-8 col-md-8 col-12">
-                                  <h4 class="h1 alinhamento-centro">R$ 69 Milhões</h4>
-                                  <h6 class="h5 alinhamento-centro">Depósitos</h6>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-4 col-md-4 col-6">
-                          <div class="row align-items-center mt-2 mb-2">
-                              <div class="col-lg-4 col-md-4 col-12">
-                                  <div class="imagemR text-center mb-2">
-                                      <img src="assets/imagens/home/ativo.png" alt="icone"/>
-                                  </div>
-                              </div>
-                              <div class="col-lg-8 col-md-8 col-12">
-                                  <h4 class="h1 alinhamento-centro">R$ 1,4 Bilhões</h4>
-                                  <h6 class="h5 alinhamento-centro">Ativos Administrados</h6>
-                              </div>
-                          </div>
-                      </div>
+                  
+                  <div class="col-lg-3 col-md-3 col-12">
+                      <a href="#">
+                     <div class="card mb-3">
+    <img src="assets/imagens/home/post2.jpg" class="card-img-top" alt="img post">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">Chegamos aos 9 anos de existência! E é só o começo!</h5>
+      <p class="card-text">Este mês, a FNCC sopra as velas e comemora 9 anos de existência! Os primeiros passos da Federação já se mostram grandes ...</p>
+    </div>
+    <div class="card-footer">
+      <small class="postado">Postado em: 10-03-2023</small>
+    </div>
+  </div> 
+                      </a>
                   </div>
+                  <div class="col-lg-3 col-md-3 col-12">
+                      <a href="#">
+                     <div class="card mb-3">
+    <img src="assets/imagens/home/post1.jpg" class="card-img-top" alt="img post">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">4º fórum integrativo confebras teve seu início com diálogo em foco</h5>
+      <p class="card-text">Contando com a co-realização da Federação e apoio da OCB, a quarta edição do Fórum Integrativo Confebras ...</p>
+    </div>
+    <div class="card-footer">
+      <small class="postado">Postado em: 10-03-2023</small>
+    </div>
+  </div> 
+                      </a>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-12">
+                      <a href="#">
+                     <div class="card mb-3">
+    <img src="assets/imagens/home/post3.jpg" class="card-img-top" alt="img post">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">Cooperplascar completa 40 anos de história</h5>
+      <p class="card-text">No dia 02/03/2023 a Cooperplascar completa 40 anos de existência. Hoje com 355 associados, a cooperativa segue evoluindo ...</p>
+    </div>
+    <div class="card-footer">
+      <small class="postado">Postado em: 10-03-2023</small>
+    </div>
+  </div> 
+                      </a>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-12">
+                      <a href="#">
+                     <div class="card mb-3">
+    <img src="assets/imagens/home/post4.jpg" class="card-img-top" alt="img post">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">Treinamento de processos assembleares é oferecido pela FNCC</h5>
+      <p class="card-text">Nos dias 13 e 14 de fevereiro aconteceu mais um treinamento oferecido pela FNCC em 2023 ...</p>
+    </div>
+    <div class="card-footer">
+      <small class="postado">Postado em: 10-03-2023</small>
+    </div>
+  </div> 
+                      </a>
+                  </div>
+              </div>
               </div>
           </section>
       </section>
@@ -312,9 +364,39 @@
   </div>
 </div>
       <!-- modais serviços-->
+      <div class="progress-wrap active-progress">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 261.636;"></path>
+      </svg>
+   </div>
       <?php include_once 'assets/includes/vlibras.php';?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/aos.js"></script>
+    <script src="assets/js/voltartopo.js"></script>
+    <script> 
+    var num = 50; //number of pixels before modifying styles
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('.menu').addClass('fixed-top');
+        $('.navbar-brand').removeClass('visually-hidden');
+        var largura = window.innerWidth;
+        if (largura < 768){
+           $('.barra-topo').addClass('fixed-top'); 
+        }
+        
+        
+    } else {
+        $('.menu').removeClass('fixed-top');
+        $('.navbar-brand').addClass('visually-hidden');
+        var largura = window.innerWidth;
+        if (largura < 768){
+           $('.barra-topo').removeClass('fixed-top');
+        }
+    }
+});
+    </script>
+   
   </body>
 </html>
