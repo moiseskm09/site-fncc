@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="assets/css/menu.css" rel="stylesheet">
     <link href="assets/css/voltartopo.css" rel="stylesheet">
     <link href="assets/css/aos.css" rel="stylesheet">
@@ -37,59 +39,95 @@
           </div>
         </div>
       </section>
-      <section id="servicos-home" class="espacamento desc-servicos">
-        <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
-          <h5 class="titulo-servicos text-white">Conheça alguns serviços da <strong>FNCC</strong> para as <span class="fw-bold">COOPERATIVAS DE CRÉDITO</span>.</h5>        
-          <div class="row align-items-center justify-content-center">
-            <div class="col-10 col-lg-9 col-md-9">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <a href="#Representatividade" data-bs-toggle="modal" data-bs-target="#Representatividade">
-                <div class="card h-100 p-0">
-                  <div class="card-body text-center">
-                    <h5><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
-                    <h5 class="card-title">REPRESENTATIVIDADE</h5>
-                    <p class="card-text">A FNCC representa o interesse das suas federadas junto aos órgãos oficiais competentes, governamentais ou privados.</p>
+      <section id="servicos-home" class="espacamento desc-servicos" data-aos="zoom-in-up" data-aos-duration="700">
+        <h5 class="titulo-servicos text-white">Conheça alguns serviços da <strong>FNCC</strong> para as <span class="fw-bold">COOPERATIVAS DE CRÉDITO</span>.</h5>
+        <div class="container-fluid owl-2-style">
+<div class="owl-carousel owl-2">
+<div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">REPRESENTATIVIDADE</h5>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div class="col">
-              <a href="#ConsultoriaJuridica" data-bs-toggle="modal" data-bs-target="#ConsultoriaJuridica">
-                <div class="card h-100">
-                  <div class="card-body text-center">
-                    <h5><img src="assets/imagens/icones/advice.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
-                    <h5 class="card-title">CONSULTORIA JURÍDICA</h5>
-                    <p class="card-text">Orientação institucional sob a ótica jurídica para o melhor cumprimento das leis e normas.</p>
-                </div>
-                </div>
-              </a>
-            </div>
-            <div class="col">
-              <a href="#ConsultoriaTecnica" data-bs-toggle="modal" data-bs-target="#ConsultoriaTecnica">
-                <div class="card h-100">
-                  <div class="card-body text-center">
-                    <h5><img src="assets/imagens/icones/veiculo.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
-                    <h5 class="card-title">CONSULTORIA TÉCNICA</h5>
-                    <p class="card-text">Serviço de assessoria técnica com orientação e direcionamento, com objetivo de promover desenvolvimento às suas associadas.</p>                  
+</div>
+<div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Consultoria Técnica</h5>
                   </div>
                 </div>
-              </a>
+</div>
+  <div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Consultoria Jurídica</h5>
+                  </div>
+                </div>
+</div>
+  <div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Modelos de Documentos</h5>
+                  </div>
+                </div>
             </div>
-          </div>
-          </div>
-        </div>
-          <div class="row">
-            <div class="col-12">
-              <div class="text-center mt-3">
-                  <a href="#" id="btn-mais-servicos" class="btn btn-padrao btn-md">CONHEÇA TODOS OS SERVIÇOS <i class="bi bi-arrow-right-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Gerenciamento de Riscos</h5>
+                  </div>
+                </div>
+</div>
+<div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Processos Assembleares</h5>
+                  </div>
+                </div>
+</div>
+  <div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Benchmarking</h5>
+                  </div>
+                </div>
+</div>
+  <div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Programa de formação e capacitação</h5>
+                  </div>
+                </div>
+</div>
+    <div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Ouvidoria</h5>
+                  </div>
+                </div>
+</div>
+    <div class="servicos-item">
+                <div class="card p-0">
+                  <div class="card-body">
+                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="card-title text-center text-wrap">Canal de indícios de Ilicitude</h5>
+                  </div>
+                </div>
+</div>
+</div>
+</div>
       </section>
-      <section id="quem-somos" class="espacamento" data-aos="zoom-in-up" data-aos-duration="700">
-        <div class="container">
+      <section id="quem-somos" class="espacamento" >
+        <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
           <div class="row flex-row-reverse align-items-center gx-70">
             <div class="col-lg-6 col-md-6 col-12">
               <img src="assets/imagens/home/quem-somos-home.png" width="100%" height="height" alt="Quem Somos"/>
@@ -145,7 +183,7 @@
         
       </section>
       
-      <section id="representatividade" class="">
+      <section id="representatividade" class="espacamento">
         <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
           <div class="row">
             <div class="col-12">
@@ -156,7 +194,7 @@
               </div> 
             </div>
           </div>
-          <div class="row row-cols-2 row-cols-md-6 g-4" >
+          <div class="row row-cols-2 row-cols-md-6 g-4">
             <div class="col">
               <div class="card h-100 p-0">
                 <div class="card-body text-center p-1">
@@ -225,28 +263,61 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a short card.</p>
+      <div class="card-heade">
+      <img src="assets/imagens/equipe/t-1-1.jpg" class="card-img-top" alt="diretoria">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <a class="btn btn-primary"><i class="bi bi-facebook"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-twitter"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-browser-chrome"></i></a>
+  </div>
+      </div>
+        </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">Ivo Lara</h5>
+        <p class="card-text">Diretor Presidente</p>
       </div>
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+   <div class="card h-100">
+      <div class="card-heade">
+      <img src="assets/imagens/equipe/t-1-6.jpg" class="card-img-top" alt="diretoria">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <a class="btn btn-primary"><i class="bi bi-facebook"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-twitter"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-browser-chrome"></i></a>
+  </div>
+      </div>
+        </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">André Brone</h5>
+        <p class="card-text">Diretor Financeiro</p>
       </div>
     </div>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+<div class="card h-100">
+      <div class="card-heade">
+      <img src="assets/imagens/equipe/t-1-7.jpg" class="card-img-top" alt="diretoria">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <a class="btn btn-primary"><i class="bi bi-facebook"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-instagram"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-twitter"></i></a>
+    <a class="btn btn-primary"><i class="bi bi-browser-chrome"></i></a>
+  </div>
+      </div>
+        </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">Clodoaldo Palú</h5>
+        <p class="card-text">Diretor Administrativo</p>
       </div>
     </div>
   </div>
@@ -330,10 +401,40 @@
     </div>
     <?php include_once 'assets/includes/vlibras.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script src="assets/js/voltartopo.js"></script>
     <script src="assets/js/carousel.js"></script>
+    <script>
+$(function() {
+	if ( $('.owl-2').length > 0 ) {
+        $('.owl-2').owlCarousel({
+            center: false,
+            items: 2,
+            loop: true,
+            stagePadding: 0,
+            margin: 5,
+            smartSpeed: 1000,
+            autoplay: true,
+            nav: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive:{
+                600:{
+                    margin: 5,
+                    nav: true,
+                  items: 2
+                },
+                1000:{
+                    margin: 5,
+                    stagePadding: 0,
+                    nav: true,
+                  items: 6
+                }
+            }
+        });            
+    }
+
+});
+</script>
+    <script src="assets/js/voltartopo.js"></script>
     <script>
         var num = 50; //number of pixels before modifying styles
 
@@ -357,38 +458,7 @@
             }
         });
     </script>
-<script>
-$(function() {
-
-	if ( $('.owl-2').length > 0 ) {
-        $('.owl-2').owlCarousel({
-            center: false,
-            items: 1,
-            loop: true,
-            stagePadding: 0,
-            margin: 20,
-            smartSpeed: 1000,
-            autoplay: true,
-            nav: true,
-            dots: true,
-            pauseOnHover: false,
-            responsive:{
-                600:{
-                    margin: 20,
-                    nav: true,
-                  items: 2
-                },
-                1000:{
-                    margin: 20,
-                    stagePadding: 0,
-                    nav: true,
-                  items: 3
-                }
-            }
-        });            
-    }
-
-})
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
   </body>
 </html>
