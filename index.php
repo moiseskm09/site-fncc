@@ -39,7 +39,7 @@
       </section>
       <section id="servicos-home" class="espacamento desc-servicos">
         <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
-          <h5 class="titulo-servicos text-white">Conheça alguns serviços da <strong>FNCC</strong> para as <span class="fw-bold">COOPERATIVAS DE CRÉDITO</span>.</h5>
+          <h5 class="titulo-servicos text-white">Conheça alguns serviços da <strong>FNCC</strong> para as <span class="fw-bold">COOPERATIVAS DE CRÉDITO</span>.</h5>        
           <div class="row align-items-center justify-content-center">
             <div class="col-10 col-lg-9 col-md-9">
           <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -145,7 +145,7 @@
         
       </section>
       
-      <section id="representatividade" class="espacamento">
+      <section id="representatividade" class="">
         <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
           <div class="row">
             <div class="col-12">
