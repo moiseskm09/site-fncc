@@ -6,7 +6,7 @@
                   <div class="col">
                       <div class="logo-principal">
                           <a>
-                              <img src="assets/imagens/logo-principal.png" class="logo" alt="LOGO FNCC"/>
+                              <img src="assets/imagens/logo-principal.webp" class="logo" alt="LOGO FNCC"/>
                           </a>
                       </div>
                   </div>
@@ -57,7 +57,7 @@
 <nav class="navbar navbar-expand-lg fundo-navbar d-none d-lg-flex menu">
   <div class="container">
    <a class="navbar-brand visually-hidden" href="#">
-      <img src="assets/imagens/logofncc.png" alt="LOGO FNCC MOBILE" class="logo-mobile">
+      <img src="assets/imagens/logofncc.webp" alt="LOGO FNCC MOBILE" class="logo-mobile">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -123,7 +123,7 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header p-1 fundo-navbar">
-        <h5 class="modal-title mt-1 mb-1"><img src="assets/imagens/logofncc.png" class="logo" alt="LOGO FNCC"/></h5>
+        <h5 class="modal-title mt-1 mb-1"><img src="assets/imagens/logofncc.webp" class="logo" alt="LOGO FNCC"/></h5>
         <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
       </div>
       <div class="modal-body p-0 fundo-menu-mobile">

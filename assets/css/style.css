@@ -50,7 +50,7 @@ body{
 .banner{
     min-height: 350px;
     background-color: #e7ebf3;
-    background-image: url("../imagens/home/banner.jpg");
+    background-image: url("../imagens/home/banner.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 10%;
@@ -60,7 +60,7 @@ body{
     .banner{
         min-height: 300px;
         background-color: #e7ebf3;
-        background-image: url("../imagens/home/banner.jpg");
+        background-image: url("../imagens/home/banner.webp");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: 20% 50%;
@@ -126,13 +126,13 @@ body{
 #servicos-home .card{
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 3px 3px 0px #785aa2;
+    box-shadow: 0 3px 3px 0px #2467EC;
 }
 
 #servicos-home .card:hover{
-    background-color: #785aa2;
+    background-color: #2467EC;
     border-radius: 10px;
-    box-shadow: 0 0 3px 3px #785aa2;
+    box-shadow: 0 0 3px 3px #2467EC;
     border:none;
 }
 
@@ -145,14 +145,14 @@ body{
     height: 60px;
 }
 #servicos-home h5{
-    font-size: 16.5px;
+    font-size: 17px;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Exo', sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
     #servicos-home h5{
-        font-size: 16.5px;
+        font-size: 16px;
         text-transform: uppercase;
         font-family: 'Poppins', sans-serif;
     }
@@ -190,12 +190,12 @@ body{
 
 
 .titulo-secao{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 @media only screen and (max-width: 768px) {
     .titulo-secao{
-    font-size: 35px;
+    font-size: 25px;
 }
 }
 
@@ -252,7 +252,7 @@ body{
 #representatividade .card{
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 3px 3px 0px #050030;
+    box-shadow: 0 3px 3px 0px #2467EC;
 }
 
 
@@ -281,7 +281,6 @@ body{
     }
 }
 
-
 .servicos-banner img{
     height: 35px;
     width: 35px;
@@ -289,7 +288,7 @@ body{
 
 #posts{
     background-color: #F6F8FB;
-    background-image: url("../imagens/home/noticias.jpg");
+    background-image: url("../imagens/home/noticias.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -301,7 +300,7 @@ body{
 #posts .card{
     font-family: 'Releway', sans-serif;
     border:none;
-    box-shadow: 0 0px 5px 0px #785aa2;
+    box-shadow: 0 0px 5px 0px #2467EC;
     background-color: #ffffff;
     border-radius: 10px;
     text-decoration: none;
@@ -355,7 +354,7 @@ body{
     height: 2px;
 }
 .sec-line-wrap .sec-title2 {
-    margin: -0.3em 0 -0.4em 0;
+    margin: -0.5em 0 -0.4em 0;
 }
 
 .sec-title2 {
@@ -363,12 +362,10 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     margin: -0.3em 0 22px 0;
+    color: #2467EC;
+    font-family: 'Poppins', sans-serif;
 }
 
-.media-29101 img{
-    width: auto;
-    height: auto;
-}
 
 .owl-dots, .owl-nav{
     visibility: hidden;
@@ -389,7 +386,7 @@ body{
     height: 100%;
     overflow: hidden;
     border:none;
-    box-shadow: 0 0 2px 1px #785aa22e;
+    box-shadow: 0 0 2px 1px #2467EC2e;
     border-radius: 10px;
 }
 #diretoria .card-body{
@@ -419,4 +416,13 @@ body{
 }
 footer a{
     text-decoration: none;
+    color:#ffffff;
+}
+
+.logo-cooperativas{
+    padding: 5px;
+}
+
+.logo-cooperativas .card{
+    border: none;
 }
