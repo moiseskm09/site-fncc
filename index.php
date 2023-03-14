@@ -46,7 +46,7 @@
 <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/representante.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">REPRESENTATIVIDADE</h5>
                   </div>
                 </div>
@@ -54,7 +54,7 @@
 <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/veiculo.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Consultoria Técnica</h5>
                   </div>
                 </div>
@@ -62,7 +62,7 @@
   <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/advice.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Consultoria Jurídica</h5>
                   </div>
                 </div>
@@ -70,7 +70,7 @@
   <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/documento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Modelos de Documentos</h5>
                   </div>
                 </div>
@@ -78,7 +78,7 @@
 <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/grs.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Gerenciamento de Riscos</h5>
                   </div>
                 </div>
@@ -86,7 +86,7 @@
 <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/assembleia.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Processos Assembleares</h5>
                   </div>
                 </div>
@@ -94,7 +94,7 @@
   <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/benchmark.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Benchmarking</h5>
                   </div>
                 </div>
@@ -102,7 +102,7 @@
   <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/treinamento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Programa de formação e capacitação</h5>
                   </div>
                 </div>
@@ -110,7 +110,7 @@
     <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/ouvidoria.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Ouvidoria</h5>
                   </div>
                 </div>
@@ -118,7 +118,7 @@
     <div class="servicos-item">
                 <div class="card p-0">
                   <div class="card-body">
-                    <h5 class="text-center"><img src="assets/imagens/icones/central-de-atendimento.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
+                    <h5 class="text-center"><img src="assets/imagens/icones/megafone.png" class="card-img-top mb-3 mt-2" alt="icone"></h5>
                     <h5 class="card-title text-center text-wrap">Canal de indícios de Ilicitude</h5>
                   </div>
                 </div>
@@ -160,22 +160,22 @@
           </div>
 <div class="container owl-2-style">
 <div class="owl-carousel owl-2">
-<div class="media-29101">
+<div class="media-29101 p-2">
 <img src="assets/imagens/cooperativas/cooperjohnson.jpg" alt="Image" class="img-fluid">
 </div>
-<div class="media-29101">
+<div class="media-29101 p-2">
 <img src="assets/imagens/cooperativas/cooperativa-ericsson.jpg" alt="Image" class="img-fluid">
 </div>
-  <div class="media-29101">
+  <div class="media-29101 p-2">
 <img src="assets/imagens/cooperativas/CoopRB.png" alt="Image" class="img-fluid">
 </div>
-  <div class="media-29101">
+  <div class="media-29101 p-2">
 <img src="assets/imagens/cooperativas/crediBasf.jpg" alt="Image" class="img-fluid">
 </div>
-<div class="media-29101">
+<div class="media-29101 p-2">
 <img src="assets/imagens/cooperativas/coopincor.jpg" alt="Image" class="img-fluid">
 </div>
-<div class="media-29101">
+<div class="media-29101 p-2">
 <img src="assets/imagens/cooperativas/cooperalpina.jpg" alt="Image" class="img-fluid">
 </div>
 </div>
@@ -183,7 +183,7 @@
         
       </section>
       
-      <section id="representatividade" class="espacamento">
+      <section id="representatividade" class="espacamento mb-3">
         <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
           <div class="row">
             <div class="col-12">
@@ -254,7 +254,7 @@
         </div>
       </section>
       <section id="diretoria" class="espacamento">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-up" data-aos-duration="700">
           <div class="row">
               <div class="col-lg-12 col-md-12 col-12">
               <h4 class="titulo-secao">DIRETORIA EXECUTIVA</h4>
@@ -393,7 +393,7 @@
       </section>
     </section>
 
-    
+    <?php include_once './rodape.php';?>
     <div class="progress-wrap active-progress">
       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 261.636;"></path>
