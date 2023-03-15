@@ -80,13 +80,13 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://fncc.com.br/servicos/">SERVIÇOS</a>
+          <a class="nav-link" href="https://bemktech.com.br/site-fncc/servicos.php">SERVIÇOS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://fncc.com.br/parcerias/">PARCERIAS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://fncc.com.br/associadas/">ASSOCIADAS</a>
+          <a class="nav-link" href="https://bemktech.com.br/site-fncc/associadas.php">ASSOCIADAS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://fncc.com.br/area-restrita/publicacoes/">PUBLICAÇÕES</a>
@@ -140,9 +140,9 @@
                             <a class="nav-link link-submenu" href="https://fncc.com.br/federacao/equipe/">EQUIPE</a>
                             
                         </div>
-                        <a class="nav-link link-menu" href="https://fncc.com.br/servicos/">SERVIÇOS</a>
+                        <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/servicos.php">SERVIÇOS</a>
                         <a class="nav-link link-menu" href="https://fncc.com.br/parcerias/">PARCERIAS</a>
-                        <a class="nav-link link-menu" href="https://fncc.com.br/associadas/">ASSOCIADAS</a>
+                        <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/associadas.php">ASSOCIADAS</a>
                         <a class="nav-link link-menu" href="https://fncc.com.br/area-restrita/publicacoes/">PUBLICAÇÕES</a>
                         <a class="nav-link link-menu" data-bs-toggle="collapse" data-bs-target="#noticias" aria-expanded="true" aria-controls="noticias">NOTÍCIAS <i class="bi bi-caret-down float-end"></i></a>
                         <div id="noticias" class="collapse" aria-labelledby="headingOne">

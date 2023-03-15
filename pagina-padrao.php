@@ -15,6 +15,7 @@
     <link href="assets/css/voltartopo.css" rel="stylesheet">
     <link href="assets/css/aos.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/default.css" rel="stylesheet">
   </head>
   <body>
       <?php require_once 'assets/menu.php';?>

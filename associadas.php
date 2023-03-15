@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-    <title>Pagina Padrão</title>
+    <title>Nossas Associadas - FNCC</title>
     <link rel="icon" type="image/png" sizes="512x512" href="assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="48x48" href="assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/icones/fncc-logotipo-colorido.webp">
@@ -34,10 +34,10 @@
               <div class="container">
                   <div class="row row-cols-2 row-cols-md-4 g-4">
                       <div class="col cards-associadas">
-                          <a href="#" alt="ASSOCIADAS">
+                          <a href="https://www.nescred.com.br/" target="blank" alt="cooperativas">
 <div class="card h-100">
     <div class="p-1">
-      <img src="assets/imagens/cooperativas/credi-nestle.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/cooperativas/credi-nestle.webp" class="card-img-top" alt="associadas">
       <div class="nome-associada">
         <h5 class="card-title">CREDI NESTLÉ</h5>
       </div>
@@ -46,10 +46,10 @@
                           </a>
   </div>
                       <div class="col cards-associadas">
-                          <a href="#" alt="ASSOCIADAS">
+                          <a href="https://cooperjohnson.com.br/" targert="blank" alt="cooperativas ">
 <div class="card h-100">
     <div class="p-1">
-      <img src="assets/imagens/cooperativas/cooperjohnson.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/cooperativas/cooperjohnson.webp" class="card-img-top" alt="associadas">
       <div class="nome-associada">
         <h5 class="card-title">COOPER JOHNSON</h5>
       </div>
@@ -58,10 +58,10 @@
                           </a>
   </div>
                       <div class="col cards-associadas">
-                          <a href="#" alt="ASSOCIADAS">
+                          <a href="https://cogem.com.br/" targert="blank" alt="cooperativas ">
 <div class="card h-100">
     <div class="p-1">
-      <img src="assets/imagens/cooperativas/cogem.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/cooperativas/cogem.webp" class="card-img-top" alt="associadas">
       <div class="nome-associada">
         <h5 class="card-title">COGEM</h5>
       </div>
@@ -70,22 +70,22 @@
                           </a>
   </div>
                       <div class="col cards-associadas">
-                          <a href="#" alt="ASSOCIADAS">
+                          <a href="http://www.aspacer.com.br/hotsite/coopaspacer/" targert="blank" alt="cooperativas ">
 <div class="card h-100">
     <div class="p-1">
-      <img src="assets/imagens/cooperativas/ASPACER.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/cooperativas/ASPACER.webp" class="card-img-top" alt="associadas">
       <div class="nome-associada">
-        <h5 class="card-title">COOP ASPACER</h5>
+        <h5 class="card-title">COOPASPACER</h5>
       </div>
         </div>
     </div>
                           </a>
   </div>
                       <div class="col cards-associadas">
-                          <a href="#" alt="ASSOCIADAS">
+                          <a href="http://www.credivista.com.br/" targert="blank" alt="cooperativas ">
 <div class="card h-100">
     <div class="p-1">
-      <img src="assets/imagens/cooperativas/cocredivista.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/cooperativas/cocredivista.webp" class="card-img-top" alt="associadas">
       <div class="nome-associada">
         <h5 class="card-title">CREDVISTA</h5>
       </div>
@@ -94,10 +94,10 @@
                           </a>
   </div>
                       <div class="col cards-associadas">
-                          <a href="#" alt="ASSOCIADAS">
+                          <a href="https://www.cooperabril.com.br/" targert="blank" alt="cooperativas ">
 <div class="card h-100">
     <div class="p-1">
-      <img src="assets/imagens/cooperativas/coopabril.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/cooperativas/coopabril.webp" class="card-img-top" alt="associadas">
       <div class="nome-associada">
         <h5 class="card-title">COOPERATIVA ABRIL</h5>
       </div>
@@ -106,10 +106,10 @@
                           </a>
   </div>
                       <div class="col cards-associadas">
-                          <a href="#" alt="ASSOCIADAS">
+                          <a href="http://coopakzonobel.com.br/" targert="blank" alt="cooperativas ">
 <div class="card h-100">
     <div class="p-1">
-      <img src="assets/imagens/cooperativas/Coop-AkzoNobel.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/cooperativas/Coop-AkzoNobel.webp" class="card-img-top" alt="associadas">
       <div class="nome-associada">
         <h5 class="card-title">COOP AKZONOBEL</h5>
       </div>
@@ -118,17 +118,558 @@
                           </a>
   </div>
                       <div class="col cards-associadas">
-                          <a href="#" alt="ASSOCIADAS">
+                          <a href="http://www.cooperativacredito.com.br/" targert="blank" alt="cooperativas ">
 <div class="card h-100">
     <div class="p-1">
-      <img src="assets/imagens/cooperativas/CoopCargill.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/cooperativas/CoopCargill.webp" class="card-img-top" alt="associadas">
       <div class="nome-associada">
-        <h5 class="card-title">COOP CARGIL</h5>
+        <h5 class="card-title">COOPCARGIL</h5>
       </div>
         </div>
     </div>
                           </a>
   </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.cooperalesp.com.br/site/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/cooperalesp.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERALESP</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://cooperalpina.com/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/cooperalpina.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERALPINA</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.coopericsson.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/cooperativa-ericsson.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERICSSON</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/cooper-avibras.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPER AVIBRAS</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://cooperbombril.com.br/home" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CooperBombril.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERBOMBRIL</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://coopercredcba.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/Coopercred-CBA.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">	COOPERCRED CBA</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.fcav.unesp.br/#!/servicos/cooperfac/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/Cooperfac.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERFAC</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOPERFEIS.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERFEIS</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://cooperfemsa.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/cooperfemsa.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERFEMSA</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CooperJSS.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERJSS</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CooperMel.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERMEL</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.cooperabb.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOPERMC.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERMC</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://coopernitro.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/coopernitro.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERNITRO</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/Cooperpak.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERPAK</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/Cooper-Pilkington.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERPILKINGTON</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOPERPPG.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERPPG</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="http://coopersekurit.com.br/sitev2/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/Cooper-Sekurit.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPER SEKURIT</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://anossacooperativa.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/Cooper-SESC.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">	COOP FECOM / SESC/ SENAC</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="http://cooperskf.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOPERSKF.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERSKF</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.coopertel.org.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOPERTEL.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERTEL</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="http://coopermsd.com.br/cooperativa/coopermsd.aspx" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOPHARMA.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPHARMA</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.coopincor.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/coopincor.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPINCOR</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.coopluiza.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/coopluiza.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPLUIZA</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOP-OIB.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPOIB</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CoopOwens.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPOWENS</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CoopPRICLAN.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPRICLAN</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://cooprb.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CoopRB.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOP RB</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOPRLASCAR.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERPLASCAR</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/COOPSELENE.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPSELENE</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="http://www.rc.unesp.br/coopunesp/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/coopunesp.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPUNESP</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/coop-Villares.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">VILLARES METALS</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.colorado.com.br/nosdacolorado/category/credcol/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CREDCOL.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDCOL</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="http://www.afam.com.br/crediafam/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/Crediafam.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDIAFAM</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.basf.com/br/pt/who-we-are/cooperativa-financeira-dos-colaboradores-do-grupo-basf.html" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/crediBasf.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDIBASF</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CrediCebrace.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDICEBRACE</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.credifisco.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CREDIFISCO.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDIFISCO</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.crediscoop.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CredisCoop.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDISCOOP</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://coopcredita.com.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CREDITA.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDITA</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CREDIUNIFI.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDIUNIFI</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://credmil.org.br/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/CREDMIL.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">CREDMIL</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="https://www.grupofleury.coop.br/portal/" targert="blank" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/FLEURY.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOPERCREDI GRUPO FLEURY</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/MWM.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">COOP MWM</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/PILONCRED.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">PILONCRED</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/TENARIS.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">TENARIS</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col cards-associadas">
+                          <a href="#" alt="cooperativas ">
+<div class="card h-100">
+    <div class="p-1">
+      <img src="assets/imagens/cooperativas/USICRED.webp" class="card-img-top" alt="associadas">
+      <div class="nome-associada">
+        <h5 class="card-title">USICRED</h5>
+      </div>
+        </div>
+    </div>
+                          </a>
+  </div>
+                      
                   </div>
               </div>
           </section>

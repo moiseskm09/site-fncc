@@ -26,8 +26,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-family: 'Raleway', sans-serif;
 }
 
+/*  Pagina Associadas */
 .cards-associadas{
+    margin-bottom: 25px;
+}
+@media only screen and (max-width: 768px) {
+    .cards-associadas{
     margin-bottom: 15px;
+}
 }
 .associadas .card{
     border-radius: 10px;
@@ -73,7 +79,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     border-radius: 15px;
     background-color: #e7ebf3;
     color:#050030;
-    z-index: 999;
     box-shadow: 0 0 2px 1px #2467EC2e;
 }
 
@@ -82,4 +87,63 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     box-shadow: 0 0 2px 1px #2467EC2e;
     color:#ffffff;
 }
+
+/*  Pagina Associadas */
+
+/*  Pagina Servicos */
+#card-normal-1 .card , #card-normal-2 .card, #card-normal-3 .card, #card-normal-4 .card, #card-normal-5 .card{
+    border-radius: 10px;
+    border:none;
+    box-shadow: 0 0 10px rgba(36, 103, 236,.3);
+    
+}
+
+.item-servicos #card-hover-1, .item-servicos #card-hover-2, .item-servicos #card-hover-3, .item-servicos #card-hover-4, .item-servicos #card-hover-5{
+    background: #ffffff;
+    padding: 20px 20px;
+    box-shadow: 0 0 70px rgba(36, 103, 236,.3);
+    min-width: 370px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    top: -1%;
+    right: 50%;
+    transition: .3s;
+    z-index: 11;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: justify;
+}
+.item-servicos .card:hover #card-hover-1, .item-servicos .card:hover #card-hover-2 , .item-servicos .card:hover #card-hover-3, .item-servicos .card:hover #card-hover-4, .item-servicos .card:hover #card-hover-5{
+    visibility: visible;
+    opacity: 1;
+    min-width: 370px;
+    min-height: 100%;
+    
+}
+
+.item-servicos .img-servico{
+    background-color: #FFD70F;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    box-shadow: 0 0 4px 2px #2467EC2e;
+}
+
+.item-servicos img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 50px;
+    transition: 0.4s;
+}
+
+.item-servicos:hover img{
+    left: 10px;
+    transition: 0.4s;
+}
+/*  Pagina Servicos */
 
