@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 de mar. de 2023, 22:18:20
+    Author     : BEMK
+*/
+
+.topo-telas{
+    min-height: 150px;
+    background-image: url("../imagens/home/banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.topo-telas .row{
+    min-height: 150px;
+}
+
+
+.titulo-topo{
+    font-weight: 700;
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cards-associadas{
+    margin-bottom: 15px;
+}
+.associadas .card{
+    border-radius: 10px;
+    min-height: 200px;
+    box-shadow: 0 0 2px 1px #2467EC2e;
+    border:none;
+}
+@media only screen and (max-width: 768px) {
+    .associadas .card{
+    border-radius: 10px;
+    min-height: 160px;
+    box-shadow: 0 0 2px 1px #2467EC2e;
+    border:none;
+    }
+}
+.associadas .card img{
+    width: 100%;
+    max-width: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.associadas .card:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: transform .5s ease;
+    border: 1px solid #2467EC2e;
+    border-radius: 10px;
+}
+
+.nome-associada{
+    background-color: #f7f7f7;
+    position: absolute;
+    bottom: -20px;
+    width: 80%;
+    left: 10px;
+    right: 10px;
+    padding: 15px 10px 5px 10px;
+    text-align: center;
+    width: calc(100% - 20px);
+    border-radius: 15px;
+    background-color: #e7ebf3;
+    color:#050030;
+    z-index: 999;
+    box-shadow: 0 0 2px 1px #2467EC2e;
+}
+
+.card:hover .nome-associada{
+    background-color: #2467EC;
+    box-shadow: 0 0 2px 1px #2467EC2e;
+    color:#ffffff;
+}
+

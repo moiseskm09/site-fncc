@@ -18,9 +18,17 @@
   </head>
   <body>
       <?php require_once 'assets/menu.php';?>
-      <section class="conteudo-tela">
-
-      </section>
+      <div class="conteudo-tela">
+          <div class="topo-telas">
+              <div class="container-fluid">
+                  <div class="row align-content-center text-center">
+                      <div class="col-12" >
+                          <h1 class="titulo-topo">NOSSAS ASSOCIADAS</h1>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
       <?php include_once 'assets/rodape.php';?>
       <?php include_once 'assets/voltartopo.php';?>
       <?php include_once 'assets/includes/vlibras.php';?>

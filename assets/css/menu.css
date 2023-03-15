@@ -6,6 +6,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : 3 de mar. de 2023, 22:22:27
     Author     : BEMK
 */
+.borda-menu{
+    box-shadow: 0 0 3px 1px #2467EC;
+}
 
 .fixed-top{
     transition: transform 2s;

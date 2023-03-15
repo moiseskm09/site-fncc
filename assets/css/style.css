@@ -120,7 +120,7 @@ body{
 }
 @media only screen and (max-width: 768px) {
     #servicos-home{
-        margin-top: -120px;
+        margin-top: -115px;
     }
 }
 #servicos-home .card{
@@ -161,6 +161,13 @@ body{
 .servicos-item .card{
     min-height: 210px;
 }
+
+@media only screen and (max-width: 768px) {
+    .servicos-item .card{
+     min-height: 190px;
+}
+}
+
 
 .servicos-item{
     padding: 5px;
@@ -425,4 +432,39 @@ footer a{
 
 .logo-cooperativas .card{
     border: none;
+}
+
+.rede-social .bi-facebook{
+    background-color: #1877f2;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.rede-social .bi-instagram{
+    background-color: #F64664;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 8px;
+}
+.rede-social .bi-linkedin{
+    background-color: #0E76A8;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 8px;
+}
+.rede-social .bi-youtube{
+    background-color: #ff0000;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.rede-social .bi:hover{
+    background-color: #FFD70F;
+    color:#785aa2;
 }

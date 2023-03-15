@@ -5,7 +5,7 @@
               <div class="row justify-content-between align-items-center">
                   <div class="col">
                       <div class="logo-principal">
-                          <a>
+                          <a href="https://bemktech.com.br/site-fncc">
                               <img src="assets/imagens/logo-principal.webp" class="logo" alt="LOGO FNCC"/>
                           </a>
                       </div>
@@ -54,7 +54,7 @@
       <!-- Barra topo-->
       
       <!-- Menu topo-->
-<nav class="navbar navbar-expand-lg fundo-navbar d-none d-lg-flex menu">
+      <nav class="navbar navbar-expand-lg fundo-navbar d-none d-lg-flex menu">
   <div class="container">
    <a class="navbar-brand visually-hidden" href="#">
       <img src="assets/imagens/logofncc.webp" alt="LOGO FNCC MOBILE" class="logo-mobile">

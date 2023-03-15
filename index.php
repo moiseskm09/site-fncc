@@ -146,7 +146,7 @@
           </div>
         </div>
       </section>
-      <section id="associadas">
+      <section id="associadas" data-aos="zoom-in-up" data-aos-duration="700">
         <div class="container">
           <div class="row">
             <div class="col-12">

@@ -5,28 +5,28 @@
           >
     <!-- Section: Social media -->
     <section
-             class="d-flex justify-content-center p-4"
+             class="text-center p-2"
              style="background-color: #050030;"
              >
       <!-- Left -->
-      <div class="me-3">
-        <span>Vamos nos conectar:</span>
+      <div>
+          <span class="">Vamos nos conectar!<br></span>
       </div>
       <!-- Left -->
 
       <!-- Right -->
-      <div>
-        <a href="" class="text-white me-3">
-            <a href="https://www.facebook.com/FNCCOFICIAL/" target="blank"><i class="bi bi-facebook"></i></a>
+      <div class="rede-social mb-2 mt-2">
+        <a href="https://www.facebook.com/FNCCOFICIAL/" target="blank" class="text-white">
+            <i class="bi bi-facebook"></i>
         </a>
-        <a href="" class="text-white me-3">
-          <a href="https://www.instagram.com/fnccoficial/" target="blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.instagram.com/fnccoficial/" target="blank" class="text-white">
+          <i class="bi bi-instagram"></i>
         </a>
-        <a href="" class="text-white me-3">
-          <a href="https://br.linkedin.com/company/fnccoficial" target="blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://br.linkedin.com/company/fnccoficial" target="blank" class="text-white">
+          <i class="bi bi-linkedin"></i>
         </a>
-        <a href="" class="text-white me-3">
-            <a href="https://www.youtube.com/channel/UCG77kyFv2muyxPEB46a0WIw" target="blank"> <i class="bi bi-youtube"></i></a>
+        <a href="https://www.youtube.com/channel/UCG77kyFv2muyxPEB46a0WIw" target="blank" class="text-white">
+           <i class="bi bi-youtube"></i>
         </a>
       </div>
       <!-- Right -->

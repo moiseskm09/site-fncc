@@ -23,11 +23,12 @@
 }
 
 .progress-wrap::after {
+    font-family:'Bootstrap-icons';
 	position: absolute;
-	content: "↑";
+	content: "\F148";
 	text-align: center;
 	line-height: 46px;
-	font-size: 20px;
+	font-size: 25px;
 	color: #2c3941;
 	left: 0;
 	top: 0;
