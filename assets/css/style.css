@@ -120,7 +120,7 @@ body{
 }
 #servicos-home .card{
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 30px 30px 30px 0px;
     box-shadow: 0 3px 3px 0px #2467EC;
 }
 
@@ -215,47 +215,19 @@ body{
 .btn-padrao{
     background-color: #050030;
     color:#FFD70F;
+    border-radius: 30px 30px 30px 0px;
+    
 }
 .btn-padrao:hover{
     background-color: #785aa2;
     color:#ffffff;
 }
 
-#btn-mais-servicos {
-    background-color: #050030;
-    color:#FFD70F;
-}
-#btn-mais-servicos:hover{
-    background-color: #785aa2;
-    color:#ffffff;
-}
-.imagemR{
-    background-color: #050030;
-    padding: 15px;
-    border-radius: 20px;
-}
-
-@media only screen and (max-width: 991px) {
-    .imagemR{
-        background-color: #050030;
-        padding: 5px;
-        border-radius: 20px;
-    }
-}
-.imagemR img{
-    max-width: 100%;
-}
-
-@media only screen and (max-width: 991px) {
-    .imagemR img{
-        max-width: 50%;
-    }
-}
-
 #representatividade .card{
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 3px 3px 0px #2467EC;
+    border-radius: 30px 30px 30px 0px;
 }
 
 
@@ -305,7 +277,7 @@ body{
     border:none;
     box-shadow: 0 0px 5px 0px #2467EC;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 30px 30px 30px 0px;
     text-decoration: none;
 
 }
@@ -315,7 +287,7 @@ body{
 }
 
 #posts img{
-    border-radius: 10px;
+    border-radius: 30px 30px 0px 0px;
 }
 
 #posts .card-body{
@@ -339,7 +311,7 @@ body{
 .postado{
     color: #785aa2;
     background: #785aa22e;
-    border-radius: 5px;
+    border-radius: 30px 30px 30px 0px;
     padding: 5px 10px;
     font-size: 16px;
 }
@@ -390,17 +362,18 @@ body{
     overflow: hidden;
     border:none;
     box-shadow: 0 0 2px 1px #2467EC2e;
-    border-radius: 10px;
+    border-radius: 60px 60px 60px 0px;
 }
 #diretoria .card-body{
-    z-index: 10;   
+    z-index: 10; 
+    background-color: #fafafa;
 }
 #diretoria .card .btn-group{
     visibility: hidden;
 }
 
 #diretoria .card:hover .card-body{
-    background-color: #f7f7f7;
+    background-color: #e7ebf3;
 }
 
 #diretoria .card:hover .btn-group{

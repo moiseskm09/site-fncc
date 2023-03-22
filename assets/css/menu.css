@@ -63,7 +63,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     padding-bottom: 15px;
     margin-left: 15px;
     padding-left: 15px;
-    border-left: 1px solid #e7ebf3;
+    border-left: 1px solid #2467EC2e;
 }
 @media only screen and (max-width: 991px) {
 .topo-info{
@@ -73,7 +73,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     padding-bottom: 10px;
     margin-left: 5px;
     padding-left: 5px;
-    border-left: 1px solid #e7ebf3;
+    border-left: 1px solid #2467EC2e;
 }
 }
 .topo-info-icone{
@@ -158,11 +158,11 @@ color: #050030;
     margin-top: 9px;
     padding: 0;
     border: none;
-    border-radius: 0;
+    border-radius: 5px;
     margin-left: 10px;
     box-shadow: 0 0 2px 1px #e7ebf3;
-    border-bottom: 3px solid #FFD70F;
-    border-top: 3px solid #FFD70F;
+    border-bottom: 2px solid #FFD70F;
+    border-top: 2px solid #FFD70F;
 }
 .navbar-expand-lg .navbar-nav .dropdown-item {
     padding: 10px;
