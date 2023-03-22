@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-    <title>Pagina Padrão</title>
+    <title>Relatório de Gestão - FNCC</title>
     <link rel="icon" type="image/png" sizes="512x512" href="../assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="48x48" href="../assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/imagens/icones/fncc-logotipo-colorido.webp">
@@ -27,11 +27,77 @@
               <div class="container-fluid">
                   <div class="row align-content-center text-center">
                       <div class="col-12" >
-                          <h1 class="titulo-topo">NOSSAS ASSOCIADAS</h1>
+                          <h1 class="titulo-topo">Relatório de Gestão</h1>
                       </div>
                   </div>
               </div>
           </div>
+          <section class="espacamento rel-gestao">
+              <div class="container">
+                  <div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+      <a href="#">
+    <div class="card h-100">
+        <div class="card-header p-0">
+      <img src="../assets/imagens/rel-gestao/gestao-2021.jpg" class="card-img-top" alt="Relatório Gestão 2021">
+        </div>
+      <div class="card-footer text-center">
+        <small class="fw-bold">Relatório de Gestão de 2021</small>
+      </div>
+    </div>
+      </a>
+  </div>
+  <div class="col">
+      <a href="#">
+    <div class="card h-100">
+        <div class="card-header p-0">
+      <img src="../assets/imagens/rel-gestao/gestao-2020.jpg" class="card-img-top" alt="Relatório Gestão 2020">
+        </div>
+      <div class="card-footer text-center">
+        <small class="fw-bold">Relatório de Gestão de 2020</small>
+      </div>
+    </div>
+      </a>
+  </div>
+  <div class="col">
+      <a href="#">
+    <div class="card h-100">
+        <div class="card-header p-0">
+      <img src="../assets/imagens/rel-gestao/gestao-2019.jpg" class="card-img-top" alt="Relatório Gestão 2019">
+        </div>
+      <div class="card-footer text-center">
+        <small class="fw-bold">Relatório de Gestão de 2019</small>
+      </div>
+    </div>
+      </a>
+  </div>
+                      <div class="col">
+                          <a href="#">
+    <div class="card h-100">
+        <div class="card-header p-0">
+      <img src="../assets/imagens/rel-gestao/gestao-2018.jpg" class="card-img-top" alt="Relatório Gestão 2018">
+        </div>
+      <div class="card-footer text-center">
+          <small class="fw-bold">Relatório de Gestão de 2018</small>
+      </div>
+    </div>
+                          </a>
+  </div>
+                      <div class="col">
+                          <a href="#">
+    <div class="card h-100">
+        <div class="card-header p-0">
+      <img src="../assets/imagens/rel-gestao/gestao-2017.jpg" class="card-img-top" alt="Relatório Gestão 2017">
+        </div>
+      <div class="card-footer text-center">
+          <small class="fw-bold">Relatório de Gestão de 2017</small>
+      </div>
+    </div>
+                          </a>
+  </div>
+</div>
+              </div>
+              </section>
       </div>
       <?php include_once '../assets/rodape.php';?>
       <?php include_once '../assets/voltartopo.php';?>

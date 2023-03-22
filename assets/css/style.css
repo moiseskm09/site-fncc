@@ -1,15 +1,11 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 4 de mar. de 2023, 15:55:58
-    Author     : BEMK
-*/
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
     font-family: 'Exo', sans-serif;
     color:#050030;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fafafa;
 }
 
 /* width */
@@ -40,12 +36,11 @@ body{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .conteudo-tela{
         margin-top: 0;
     }
 }
-
 
 .banner{
     min-height: 350px;
@@ -56,7 +51,7 @@ body{
     background-position: 30% 10%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .banner{
         min-height: 300px;
         background-color: #e7ebf3;
@@ -81,7 +76,7 @@ body{
     font-weight: 500;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .frase-efeito h1{
         padding-top: 10px;
         font-weight: 700;
@@ -92,7 +87,7 @@ body{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .frase-efeito h4{
         text-align: center;
         font-size: 20px;
@@ -118,7 +113,7 @@ body{
 #servicos-home{
     margin-top: -100px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     #servicos-home{
         margin-top: -115px;
     }
@@ -150,7 +145,7 @@ body{
     font-family: 'Exo', sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     #servicos-home h5{
         font-size: 16px;
         text-transform: uppercase;
@@ -162,7 +157,7 @@ body{
     min-height: 210px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .servicos-item .card{
      min-height: 190px;
 }
@@ -188,7 +183,7 @@ body{
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .espacamento{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -200,17 +195,18 @@ body{
     font-size: 35px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .titulo-secao{
     font-size: 25px;
 }
 }
 
+
 #quem-somos p, #posts p {
     text-align: justify;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .alinhamento-centro{
         text-align: center;
     }
@@ -239,7 +235,7 @@ body{
     border-radius: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .imagemR{
         background-color: #050030;
         padding: 5px;
@@ -250,7 +246,7 @@ body{
     max-width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .imagemR img{
         max-width: 50%;
     }
@@ -272,7 +268,7 @@ body{
     margin-bottom: -2px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     #representatividade h5{
         font-size: 18px;
         margin-bottom: -2px;
@@ -282,7 +278,7 @@ body{
     font-size: 13px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     #representatividade p{
         font-size: 14px;
     }

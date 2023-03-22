@@ -41,7 +41,7 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <a href="https://fncc.com.br"><h6 class="text-uppercase fw-bold"><img src="assets/imagens/logocompleto.webp" height="180px" alt="alt"/></h6></a>
+            <a href="https://fncc.com.br"><h6 class="text-uppercase fw-bold"><img src="https://bemktech.com.br/site-fncc/assets/imagens/logocompleto.webp" height="180px" alt="alt"/></h6></a>
 
           </div>
           <!-- Grid column -->
@@ -70,7 +70,7 @@
                 />
             <p><a href="mailto:atendimento@dbgm.com.br"><i class="bi bi-envelope-at mr-3"></i> contatoseguro.com.br</a></p>
             <p><a href="tel: 0800 800 5656"><i class="bi bi-telephone mr-3"></i> 0800 800 5656 </a></p>
-            <p>APP: <a href="https://apps.apple.com/br/app/contato-seguro/id945536717" target="blank"><i class="bi bi-apple mr-3"></i></a> <a href="https://play.google.com/store/apps/details?id=br.com.contatoseguro.appoficial" target="blank"><i class="bi bi-google-play mr-3"></i></a></p>
+            <p><a href="https://apps.apple.com/br/app/contato-seguro/id945536717" target="blank"><img class="mr-3" src="https://bemktech.com.br/site-fncc/assets/imagens/icones/appstore.webp" width="101" height="30" alt="app store"/> </a> <a href="https://play.google.com/store/apps/details?id=br.com.contatoseguro.appoficial" target="blank"><img src="https://bemktech.com.br/site-fncc/assets/imagens/icones/googleplay.webp" width="101" height="30" alt="google play"/></a></p>
           </div>
           <!-- Grid column -->
 
@@ -84,8 +84,8 @@
                 />
             <p><i class="bi bi-building mr-3"></i> Voluntários da Pátria, 654<br>Sala 606, Santana - SP</p>
             <p><a href="mailto:atendimento@dbgm.com.br"><i class="bi bi-envelope-at mr-3"></i> fncc@fncc.com.br</a></p>
-            <p><a href="tel: 11 95782-1957"><i class="bi bi-whatsapp mr-3"></i> 11 95782-1957</a></p>
-            <p><a href="tel: 11 93730-7909"><i class="bi bi-whatsapp mr-3"></i> 11 93730-7909</a></p>
+            <p><a href="https://wa.me/5511957821957" target="blank"><i class="bi bi-whatsapp mr-3"></i> 11 95782-1957</a></p>
+            <p><a href="https://wa.me/5511937307909" target="blank"><i class="bi bi-whatsapp mr-3"></i> 11 93730-7909</a></p>
           </div>
           <!-- Grid column -->
         </div>

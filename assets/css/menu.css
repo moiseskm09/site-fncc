@@ -29,7 +29,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     transition: 1s;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
 .fixed-top .logo{
     width: auto;
     height: 35px;
@@ -39,6 +39,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 
 .barra-topo{
     border-bottom: 2px solid #2467EC;
+    background-color: #fafafa;
 }
 
 .logo{
@@ -47,7 +48,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
    vertical-align: middle;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
    .logo{
    height: 40px;
    width: auto;
@@ -64,7 +65,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     padding-left: 15px;
     border-left: 1px solid #e7ebf3;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
 .topo-info{
     display: flex;
     align-items: center;
@@ -80,7 +81,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-size: 24px;
     margin-right: 20px; 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .topo-info-icone{
     color: #0e5af2;
     font-size: 20px;
@@ -97,7 +98,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     display: block;
     margin-bottom: 2px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .topo-info-label{
     font-size: 13px;
     color: #785aa289;
@@ -112,7 +113,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-weight: 600;
     margin: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .topo-info-link{
     color: #050030;
     font-size: 13px;

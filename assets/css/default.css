@@ -13,6 +13,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    border-bottom-right-radius: 100px;
 }
 
 .topo-telas .row{
@@ -24,26 +25,33 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     font-weight: 700;
     color:#ffffff;
     font-family: 'Raleway', sans-serif;
+    font-size: 35px;
 }
 
+.subtitulo-topo{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Exo', sans-serif;
+    color:#ffffff; 
+}
 /*  Pagina Associadas */
 .cards-associadas{
     margin-bottom: 25px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .cards-associadas{
     margin-bottom: 15px;
 }
 }
 .associadas .card{
-    border-radius: 10px;
+    border-radius: 30px 30px 30px 0px;
     min-height: 200px;
     box-shadow: 0 0 2px 1px #2467EC2e;
     border:none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .associadas .card{
-    border-radius: 10px;
+    border-radius: 15px 15px 15px 0px;
     min-height: 160px;
     box-shadow: 0 0 2px 1px #2467EC2e;
     border:none;
@@ -54,7 +62,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     max-width: 100%;
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
-    border-radius: 10px;
+    border-radius: 30px 30px 30px 0px;
     background-color: #ffffff;
 }
 
@@ -63,7 +71,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     transform: scale(1.1);
     transition: transform .5s ease;
     border: 1px solid #2467EC2e;
-    border-radius: 10px;
+    border-radius: 15px 15px 15px 0px;
 }
 
 .nome-associada{
@@ -88,17 +96,27 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     color:#ffffff;
 }
 
+.nome-associada h5{
+    font-size: 18px;
+}
+@media only screen and (max-width: 991px) {
+    .nome-associada h5{
+    font-size: 15px;
+}
+}
+
 /*  Pagina Associadas */
 
 /*  Pagina Servicos */
-#card-normal-1 .card , #card-normal-2 .card, #card-normal-3 .card, #card-normal-4 .card, #card-normal-5 .card{
-    border-radius: 10px;
+.nossos-servicos .card{
+    border-radius: 60px 60px 60px 0px;
     border:none;
-    box-shadow: 0 0 10px rgba(36, 103, 236,.3);
+    box-shadow: 0 0 10px rgba(36, 103, 236,.6);
+    min-height: 100%;
     
 }
 
-.item-servicos #card-hover-1, .item-servicos #card-hover-2, .item-servicos #card-hover-3, .item-servicos #card-hover-4, .item-servicos #card-hover-5{
+.nossos-servicos .card-hover{
     background: #ffffff;
     padding: 20px 20px;
     box-shadow: 0 0 70px rgba(36, 103, 236,.3);
@@ -106,18 +124,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    top: -1%;
+    top: 0;
     right: 50%;
     transition: .3s;
     z-index: 11;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+border-radius: 60px 60px 60px 0px;
     left: 50%;
     transform: translateX(-50%);
-    text-align: justify;
 }
-.item-servicos .card:hover #card-hover-1, .item-servicos .card:hover #card-hover-2 , .item-servicos .card:hover #card-hover-3, .item-servicos .card:hover #card-hover-4, .item-servicos .card:hover #card-hover-5{
+
+
+.nossos-servicos .card:hover .card-hover{
     visibility: visible;
     opacity: 1;
     min-width: 370px;
@@ -125,7 +142,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     
 }
 
-.item-servicos .img-servico{
+.nossos-servicos .img-servico{
     background-color: #FFD70F;
     width: 90px;
     height: 90px;
@@ -133,7 +150,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     box-shadow: 0 0 4px 2px #2467EC2e;
 }
 
-.item-servicos img{
+.nossos-servicos .card img{
     width: 70px;
     height: 70px;
     position: relative;
@@ -141,9 +158,334 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     transition: 0.4s;
 }
 
-.item-servicos:hover img{
+.nossos-servicos .card:hover img{
     left: 10px;
     transition: 0.4s;
 }
+
+.nossos-servicos .card-body{
+    padding-bottom: 50px;
+}
+.nossos-servicos .card .btn{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2467EC;
+}
 /*  Pagina Servicos */
 
+/*  Pagina Estatuto */
+.btn-download-estatuto{
+    text-align: right;
+}
+@media only screen and (max-width: 991px) {
+.btn-download-estatuto{
+    text-align: center;
+}
+}
+.paragrafo-estatuto{
+    line-height: 2;
+    text-align: justify;
+}
+/*  Pagina Estatuto */
+
+/*  Quem somos */
+
+.titulo-destaque{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+.destaque{
+    color:#785aa2;
+}
+
+@media only screen and (max-width: 1210px) {
+    .circulos{
+        visibility: hidden;
+    }
+}
+.mvv-mobile{
+        visibility: hidden;
+    }
+@media only screen and (max-width: 1210px) {
+    .mvv-mobile{
+        visibility: visible;
+        margin-top: -250px;
+    }
+}
+.circulos{
+    position: relative;
+    top:-55%;
+    min-height: 250px;
+    border-radius: 100%;
+}
+.circulo-missao, .circulo-visao, .circulo-valores{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.circulo-missao{
+    background-color: #2467EC2e;
+    position: absolute;
+    top:88%;
+    left:30%;
+}
+.circulo-visao{
+    background-color: #785aa22e;
+    position: absolute;
+    top:88%;
+    left:48%;
+}
+.circulo-valores{
+    background-color: #FFD70F2e;
+    position: absolute;
+    top:140%;
+    left:39%;
+}
+
+.circulo-missao p{
+    position: absolute;
+    left:-335px;
+    width: 320px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1210px) {
+    .circulos, .circulo-visao p, .circulo-valores p, .circulo-valores p{
+        visibility: hidden;
+        right: 0;
+        left: 0;
+        width: 0;
+    }
+}
+.circulo-visao p{
+    position: absolute;
+    right:-330px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.circulo-valores p{
+    position: absolute;
+    left: 0;
+    bottom:-100px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.destacado{
+    padding: 30px;
+    background-color: #2467EC2e;
+    border-radius: 20px;
+}
+
+.mvv-missao{
+    background-color: #2467EC2e;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.mvv-visao{
+    background-color: #785aa22e;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.mvv-valores{
+    background-color: #FFD70F2e;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    
+}
+/*  Quem somos */
+
+/*  Parceiros */
+.empresas-parceiras .card{
+border:none;
+border-radius: 30px 30px 30px 0px;
+}
+
+@media only screen and (max-width: 991px) {
+.empresas-parceiras .card{
+border:none;
+border-radius: 40px 40px 40px 0px;
+min-height: 100%;
+text-align: center;
+}
+}
+
+.empresas-parceiras .card:hover{
+box-shadow: 0 0 4px 2px #2467EC;
+background-color: #2467EC;
+border-radius: 40px 40px 40px 0px;
+} 
+
+.empresas-parceiras .card:hover .card-title{
+color: #ffffff;
+} 
+
+.empresas-parceiras .card-body{
+    box-shadow: 0 0 4px 2px #2467EC2e;
+border-radius: 40px 40px 40px 0px;
+    min-height: 100%;
+}
+.img-parceiros{
+    max-width: 70px;
+    max-height: 70px;
+    margin-bottom: 10px;
+}
+.titulo-parceiro{
+}
+/*  Parceiros */
+
+/*  Equipe */
+.equipe img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border:3px solid #FFD70F;
+}
+
+@media only screen and (max-width: 991px) {
+.equipe img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border:3px solid #FFD70F;
+}
+}
+
+.equipe .card{
+    background-color: transparent;
+    border: none;
+}
+
+.equipe .card .btn{
+    position: absolute;
+    top:55%;
+    right: 15%;
+    border-radius: 50%;
+    background-color: #0E76A8;
+    color:#ffffff;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    border: 3px solid #FFD70F;
+}
+
+@media only screen and (max-width: 991px) {
+.equipe .card .btn{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #0E76A8;
+    color:#ffffff;
+    height: 45px;
+    width: 45px;
+    font-size: 18px;
+    border: 3px solid #FFD70F;
+    top: 75px;
+    left: 75px;
+}
+}
+.equipe .card .btn:hover{
+    background-color: #2467EC;
+    color:#ffffff;
+    border: none;
+    box-shadow: 0 0 4px 2px  #785aa2;
+}
+/*  Equipe */
+
+/*  Diretoria Executiva */
+.diretoria-executiva .card{
+    border: none;
+    box-shadow: 0 0 6px 3px  #2467EC2e;
+    border-radius: 15px;
+}
+.diretoria-executiva h2, .diretoria-executiva h5{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.diretoria-executiva img{
+    max-width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+@media only screen and (max-width: 991px) {
+    .diretoria-executiva img{
+        width: 100%;
+    max-width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+
+}
+}
+
+.diretoria-executiva h2{
+    padding-top: 10px;
+}
+
+.diretoria-executiva ul {
+  list-style-image: url("../imagens/icones/flecha.webp");
+}
+/*  Diretoria Executiva */
+
+/*  Rel Gestão */
+.rel-gestao .card{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border:none;
+    box-shadow: 0 0 8px 3px #2467EC2e;
+   border-radius: 40px 40px 40px 0px;
+}
+.rel-gestao .card:hover{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border:none;
+    box-shadow: 0 0 20px 5px #785aa240;
+    border-radius: 40px 40px 40px 0px;
+}
+.rel-gestao .card img{
+     -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.rel-gestao .card:hover img{
+-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+     -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.rel-gestao .card-footer{
+    z-index: 11;
+    background-color: #e7ebf3;
+    color:#050030;
+    border:none;
+    border-bottom-left-radius: 0;
+}
+.rel-gestao a{
+text-decoration: none;
+}
+/*  Rel Gestão */
