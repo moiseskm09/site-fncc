@@ -39,30 +39,33 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/adriana.webp" alt="icone colaborador"/>
-                      </div>
+                          </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                           <a class="btn"><i class="bi bi-linkedin"></i></a>   
+                             <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Adriana Braccini Caldeira</h5>
                           <p>Coordenadora Administrativa</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a> 
+                             </div>
                       </div>
-                  </div>
-                  </div>
+                        </div>
                           </div>
                       </div>
-                  
+                      </div>
                       <div class="col-12 col-l col-md-4">
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/bruna.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                          <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Bruna Maia Veloso</h5>
                           <p>Analista Administrativa</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                          </div>
                       </div>
                   </div>
                               </div>
@@ -72,13 +75,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/elvis.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                          <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Elvis Cardoso Pinto</h5>
                           <p>Analista de Controles Internos</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a> 
+                          </div>
                       </div>
                   </div>
                           </div>
@@ -88,13 +93,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/karina.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                          <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Karina Jordão Rocha Pequeno</h5>
                           <p>Analista Administrativa</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                          </div>
                       </div>
                   </div>
                           </div>
@@ -104,13 +111,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/marcelo.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                          <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Marcelo Cárfora</h5>
                           <p>Superintendente</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                          </div>
                       </div>
                         
                   </div>
@@ -121,13 +130,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/rogerio.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                           <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Rogério Oliveira</h5>
                           <p>Consultor Técnico</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a> 
+                           </div>
                       </div>
                   </div>
                           </div>
@@ -137,13 +148,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/tessia.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                           <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Téssia Pimentel Neves</h5>
                           <p>Consultora Técnica</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a> 
+                           </div>
                       </div>
                   </div>
                           </div>

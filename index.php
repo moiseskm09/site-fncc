@@ -21,6 +21,7 @@
     <link href="assets/css/aos.css" rel="stylesheet">
     <link href="assets/css/carousel.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/default.css" rel="stylesheet">
   </head>
   <body class="bg-white">
       <?php require_once 'assets/menu.php'; ?>
@@ -621,7 +622,7 @@
   <div class="col">
     <div class="card h-100">
       <div class="card-header p-0">
-      <img src="assets/imagens/equipe/t-1-1.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/equipe/ivo2.webp" class="card-img-top" alt="diretoria">
       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
   <div class="btn-group" role="group" aria-label="First group">
     <a class="btn btn-primary"><i class="bi bi-facebook"></i></a>
@@ -641,7 +642,7 @@
   <div class="col">
    <div class="card h-100">
       <div class="card-header p-0">
-      <img src="assets/imagens/equipe/t-1-6.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/equipe/andre2.webp" class="card-img-top" alt="diretoria">
       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
   <div class="btn-group" role="group" aria-label="First group">
     <a class="btn btn-primary"><i class="bi bi-facebook"></i></a>
@@ -661,7 +662,7 @@
   <div class="col">
 <div class="card h-100">
       <div class="card-header p-0">
-      <img src="assets/imagens/equipe/t-1-7.webp" class="card-img-top" alt="diretoria">
+      <img src="assets/imagens/equipe/clodoaldo2.webp" class="card-img-top" alt="diretoria">
       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
   <div class="btn-group" role="group" aria-label="First group">
     <a class="btn btn-primary"><i class="bi bi-facebook"></i></a>

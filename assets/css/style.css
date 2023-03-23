@@ -64,16 +64,18 @@ body{
 
 .frase-efeito h1{
     padding-top: 50px;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 50px;
     padding-bottom: 15px;
     color: #ffffff;
+    font-family: 'Mplusrounded1c', sans-serif;
 }
 
 .frase-efeito h4{
     color: #ffffff;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'Mplusrounded1c', sans-serif;
 }
 
 @media only screen and (max-width: 991px) {
@@ -101,7 +103,7 @@ body{
 }
 
 .titulo-servicos{
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.6;
     text-align: center;
 }
@@ -154,7 +156,7 @@ body{
 }
 
 .servicos-item .card{
-    min-height: 210px;
+    min-height: 200px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -383,6 +385,7 @@ body{
 #diretoria .card img{
     width: 100%;
     max-width: 100%;
+    height: 350px;
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
 }
