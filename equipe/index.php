@@ -28,6 +28,7 @@
                   <div class="row align-content-center text-center">
                       <div class="col-12" >
                           <h1 class="titulo-topo">Equipe</h1>
+                          <p class="subtitulo-topo fw-bold">A incrível equipe por trás da FNCC</p>
                       </div>
                   </div>
               </div>
