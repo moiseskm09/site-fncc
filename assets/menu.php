@@ -98,7 +98,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="https://fncc.com.br/noticias/news/">NEWS</a></li>
             <li><a class="dropdown-item" href="https://fncc.com.br/noticias/express/">EXPRESS</a></li>
-            <li><a class="dropdown-item" href="https://fncc.com.br/noticias/">TODAS AS NOTÍCIAS</a></li>
+            <li><a class="dropdown-item" href="https://bemktech.com.br/site-fncc/noticias/">TODAS AS NOTÍCIAS</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -148,7 +148,7 @@
                         <div id="noticias" class="collapse" aria-labelledby="headingOne">
                             <a class="nav-link link-submenu" href="https://fncc.com.br/noticias/news/">NEWS</a>
                             <a class="nav-link link-submenu" href="https://fncc.com.br/noticias/express/">EXPRESS</a>
-                            <a class="nav-link link-submenu" href="https://fncc.com.br/noticias/">TODAS AS NOTÍCIAS</a>
+                            <a class="nav-link link-submenu" href="https://bemktech.com.br/site-fncc/noticias/">TODAS AS NOTÍCIAS</a>
                         </div>
                         <a class="nav-link link-menu" href="https://fncc.com.br/fale-conosco/">FALE CONOSCO</a>
                     </div>
