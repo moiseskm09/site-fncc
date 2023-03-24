@@ -15,6 +15,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'ClarityCity.woff';
+  src: url('../fontes/ClarityCity.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 .topo-telas{
     min-height: 150px;
     background-image: url("../imagens/home/banner.webp");
@@ -444,7 +452,7 @@ border-radius: 40px 40px 40px 0px;
     background-color: transparent;
     padding: 0px 0px 0px 0px;
     z-index: 1;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 30px 30px 30px 0px;
     border:none;
     box-shadow: 0 0 0px 0px transparent; 
 }
@@ -457,6 +465,7 @@ border-radius: 40px 40px 40px 0px;
     border: none;
     box-shadow: 0 0 6px 3px  #2467EC2e;
     border-radius: 15px;
+    border-radius: 40px 40px 40px 0px;
 }
 .diretoria-executiva h2, .diretoria-executiva h5{
     padding-left: 10px;
@@ -466,16 +475,16 @@ border-radius: 40px 40px 40px 0px;
 .diretoria-executiva img{
     max-width: 100%;
     height: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 0px;
 }
 @media only screen and (max-width: 991px) {
     .diretoria-executiva img{
         width: 100%;
     max-width: 100%;
-    border-top-left-radius: 15px;
+    border-top-left-radius: 40px;
     border-bottom-left-radius: 0;
-    border-top-right-radius: 15px;
+    border-top-right-radius: 40px;
 
 }
 }
@@ -528,3 +537,81 @@ border-radius: 40px 40px 40px 0px;
 text-decoration: none;
 }
 /*  Rel Gestão */
+
+/* Noticias */
+
+.todas-noticias a{
+    text-decoration: none;
+}
+
+.todas-noticias .card{
+    border:0;
+    border-radius: 60px 60px 60px 0px;
+    background-color: transparent;
+}
+
+.todas-noticias .card:hover{
+      background-color: #ffffff;
+      box-shadow: 0 0 8px 3px #2467EC2e;
+}
+.todas-noticias .card img{
+    border:0;
+    border-radius: 60px 60px 60px 0px;
+}
+
+.todas-noticias .topo-noticia-destaque .badge{
+    border-radius: 30px 30px 30px 0px;
+    padding: 10px;
+}
+.todas-noticias .topo-noticia-destaque .data-postagem{
+    font-size: 16px;
+}
+
+.todas-noticias h5{
+    font-family: 'Mplusrounded1c', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #050030;   
+}
+
+.todas-noticias h4{
+    font-family: 'Mplusrounded1c', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #050030;   
+}
+
+.todas-noticias p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    color: #785aa2;
+    
+}
+.n-mobile{
+        padding: 0;
+    }
+    
+@media only screen and (max-width: 991px) {
+    .n-mobile{
+        padding: 5px;
+    }
+}
+.espacamento-lateral{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+    .espacamento-lateral{
+    padding-left: 0;
+    padding-right: 0;
+    }
+}
+.topo-noticia-destaque, h4{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Noticias */

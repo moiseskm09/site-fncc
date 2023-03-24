@@ -42,13 +42,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/camila.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                           <a class="btn"><i class="bi bi-linkedin"></i></a>   
+                            <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Camila Aparecida Silvestre</h5>
                           <p>Conselheira Fiscal</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                            </div>
                       </div>
                   </div>
                   </div>
@@ -59,13 +61,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/crisley.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                            <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Crisley Reis Prado Curcio</h5>
                           <p>Conselheira Fiscal</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>
+                            </div>
                       </div>
                   </div>
                               </div>
@@ -75,13 +79,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/jackson.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                            <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Jackson Andrade de Matos</h5>
                           <p>Conselheiro Fiscal</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>
+                            </div>
                       </div>
                   </div>
                           </div>
@@ -96,13 +102,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/barbara.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                           <a class="btn"><i class="bi bi-linkedin"></i></a>   
+                              <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Barbara Suellen Barbosa Falsetti</h5>
                           <p>Conselheira Fiscal</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>
+                              </div>
                       </div>
                   </div>
                   </div>
@@ -113,13 +121,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/marcus.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
-                          <h5 class="destaque fw-bold">Marcus Antonio de Oliveira</h5>
+                          <div class="nome-cargo">
+                          <h5 class="destaque fw-bold">Marcus Antonio <br>de Oliveira</h5>
                           <p>Conselheiro Fiscal</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>
+                          </div>
                       </div>
                   </div>
                               </div>
@@ -129,13 +139,15 @@
                           <div class="card">
                               <div class="card-body">
                     <div class="row d-flex align-items-center mb-3">
-                      <div class="col-3 col-lg-12 col-md-12 text-center">
+                      <div class="col-3 col-lg-12 col-md-12 text-center nafrente">
                           <img class="mb-2" src="../assets/imagens/equipe/rosa.webp" alt="icone colaborador"/>
                       </div>
                       <div class="col-9 col-lg-12 col-md-12 text-center">
-                          <a class="btn"><i class="bi bi-linkedin"></i></a>  
+                          <div class="nome-cargo">
                           <h5 class="destaque fw-bold">Rosa Herminia Storoli dos Santos</h5>
                           <p>Conselheira Fiscal</p>
+                          <a class="btn"><i class="bi bi-linkedin"></i></a>
+                          </div>
                       </div>
                   </div>
                           </div>
