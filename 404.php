@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-    <title>Pagina Padrão</title>
+    <title>Erro 404 - FNCC</title>
     <link rel="icon" type="image/png" sizes="512x512" href="assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="48x48" href="assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/icones/fncc-logotipo-colorido.webp">
