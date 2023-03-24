@@ -552,7 +552,8 @@ text-decoration: none;
 
 .todas-noticias .card:hover{
       background-color: #ffffff;
-      box-shadow: 0 0 8px 3px #2467EC2e;
+      box-shadow: 0 0 15px 3px #2467EC2e;
+
 }
 .todas-noticias .card img{
     border:0;
@@ -605,8 +606,8 @@ text-decoration: none;
 
 @media only screen and (max-width: 991px) {
     .espacamento-lateral{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     }
 }
 .topo-noticia-destaque, h4{
