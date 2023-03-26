@@ -98,7 +98,7 @@
                     </div>
                       <div class="col-md-6 col-lg-6 col-12 mx-auto text-center g-0">
                         
-                        <form action="action" class="form-associe-se">
+                        <form action="#" class="form-associe-se">
                           <h5 class="text-white">Ou se preferir, solicitar um contato</h5>
                           <img id="img-esquerda" src="../assets/imagens/fundos/fundo-contato-associese2.svg" alt="fundo"/>
                           <img id="img-direita" src="../assets/imagens/fundos/fundo-contato-associese.svg" alt="fundo"/>

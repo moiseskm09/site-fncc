@@ -37,7 +37,7 @@
                       </div>
                       <div class="media-body">
                           <div class="topo-info-link">
-                              <a href="https://fncc.com.br/associe-se/" class="btn btn-lg btn-associese">ASSOCIE-SE</a>
+                              <a href="https://bemktech.com.br/site-fncc/associe-se" class="btn btn-lg btn-associese">ASSOCIE-SE</a>
                           </div>
                       </div>
                   </div>
@@ -89,17 +89,7 @@
           <a class="nav-link" href="https://bemktech.com.br/site-fncc/associadas">ASSOCIADAS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://fncc.com.br/area-restrita/publicacoes/">PUBLICAÇÕES</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            NOTÍCIAS
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://fncc.com.br/noticias/news/">NEWS</a></li>
-            <li><a class="dropdown-item" href="https://fncc.com.br/noticias/express/">EXPRESS</a></li>
-            <li><a class="dropdown-item" href="https://bemktech.com.br/site-fncc/noticias/">TODAS AS NOTÍCIAS</a></li>
-          </ul>
+          <a class="nav-link" href="https://bemktech.com.br/site-fncc/noticias/">NOTÍCIAS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://fncc.com.br/fale-conosco/">FALE CONOSCO</a>
@@ -143,20 +133,14 @@
                         <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/servicos">SERVIÇOS</a>
                         <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/parcerias">PARCERIAS</a>
                         <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/associadas">ASSOCIADAS</a>
-                        <a class="nav-link link-menu" href="https://fncc.com.br/area-restrita/publicacoes/">PUBLICAÇÕES</a>
-                        <a class="nav-link link-menu" data-bs-toggle="collapse" data-bs-target="#noticias" aria-expanded="true" aria-controls="noticias">NOTÍCIAS <i class="bi bi-caret-down float-end"></i></a>
-                        <div id="noticias" class="collapse" aria-labelledby="headingOne">
-                            <a class="nav-link link-submenu" href="https://fncc.com.br/noticias/news/">NEWS</a>
-                            <a class="nav-link link-submenu" href="https://fncc.com.br/noticias/express/">EXPRESS</a>
-                            <a class="nav-link link-submenu" href="https://bemktech.com.br/site-fncc/noticias/">TODAS AS NOTÍCIAS</a>
-                        </div>
+                        <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/noticias/">NOTÍCIAS</a>
                         <a class="nav-link link-menu" href="https://fncc.com.br/fale-conosco/">FALE CONOSCO</a>
                     </div>
                 </div>
       </div>
         <div class="modal-footer fundo-menu-mobile p-1 border-0 text-center" style="display: inline-table;">
-            <a href="https://fncc.com.br/associe-se/" class="btn btn-lg btn-primary">ASSOCIE-SE</a>
-                <a href="https://bemktech.com.br/sistema-fncc/index" class="btn btn-lg btn-success">ÁREA RESTRITA</a>
+            <a href="https://bemktech.com.br/site-fncc/associe-se/" class="btn btn-lg btn-primary">ASSOCIE-SE</a>
+                <a href="https://bemktech.com.br/sistema-fncc/" class="btn btn-lg btn-success">ÁREA RESTRITA</a>
             
       </div>
     </div>

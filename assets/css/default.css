@@ -808,3 +808,29 @@ text-decoration: none;
     max-width: 85px;
     }
 /* Associe-se*/
+
+/* Contate-nos */
+.contate-nos h2{
+    font-family: 'Mplusrounded1c', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    font-size: 35px;
+}
+.contate-nos h5{
+    font-family: 'Mplusrounded1c', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+.contate-nos p, .contate-nos .rede-social{
+    padding-left: 20px;
+}
+.contate-nos i{
+    color: #2467EC;
+}
+
+.contate-nos .rede-social i{
+    color:#ffffff;
+}
+/* Contate-nos */
