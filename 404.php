@@ -36,8 +36,8 @@
         <section class="espacamento tela-erro">
           <div class="container">
             <div class="row align-items-center justify-content-between">
-              <div class="col-md-6 col-12"><h5>Sentimos muito pelo ocorrido mas ão conseguimos encontrar a página que estava procurando!</h5>
-                <h5>Por favor verifique o menu acima e navegue pelo nosso site.</h5>
+              <div class="col-md-6 col-12"><h5>Sentimos muito pelo ocorrido mas não conseguimos encontrar a página que estava procurando!</h5>
+                <h5>Por favor, verifique o menu acima e navegue pelo nosso site.</h5>
                 <h5>Fizemos tudo para que tenha a melhor experiência possível!</h5></div>
               <div class="col-md-6 col-12"><img src="assets/imagens/erro404.webp" width="100%" height="100%" alt="404"/></div>
           </div>

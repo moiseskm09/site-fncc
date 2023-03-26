@@ -614,5 +614,197 @@ text-decoration: none;
     padding-left: 5px;
     padding-right: 5px;
 }
-
 /* Noticias */
+
+/* NOTICIAS UNICAS*/
+.titulo-post{
+   font-family: 'Mplusrounded1c', sans-serif;
+   font-weight: 700;
+   padding: 20px 0px 20px 0px;
+   border-radius: 60px 60px 0px 0px;
+   background-color: #785aa2;
+   color:#ffffff;
+   text-align: center;
+}
+
+.categoria-post{
+    padding: 10px;
+}
+.categoria-post .badge{
+    border-radius: 30px 30px 30px 0px;
+    padding: 17px;
+}
+.categoria-post .data-post{
+    border-radius: 30px 30px 30px 0px;
+    padding: 10px;
+    color:#785aa2;
+}
+.img-post img{
+    max-width: 100%;
+    border-radius: 0px 0px 60px 0px;
+}
+
+.subtitulo-post{
+   font-family: 'Mplusrounded1c', sans-serif;
+   font-weight: 600;
+   color:#050030;
+   padding-top: 15px;
+}
+.texto-post{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    color: #575757;
+    font-weight: 400;
+    text-align: justify;
+}
+.titulo-relacionadas{
+   font-family: 'Mplusrounded1c', sans-serif;
+   font-weight: 700;
+   padding: 20px 0px 20px 0px;
+   border-radius: 60px 60px 0px 0px;
+   background-color: #2467EC;
+   color:#ffffff;
+   text-align: center;
+}
+.titulo-relacionadas h6{
+    vertical-align: middle;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.post-unico .sticky-top{
+    top: 60px;
+}
+.relacionadas{
+    padding: 5px;
+    background-color:#ffffff;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0 0 20px 3px #2467EC2e;
+}
+    .relacionadas li{
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .relacionadas a{
+        text-decoration: none;
+        color: #050030;
+        font-weight: 500;
+    }
+    .relacionadas a:hover{
+        text-decoration: none;
+        color: #2467EC;
+    }
+    
+    .relacionadas ul {
+  list-style-image: url("../imagens/icones/newspaper.png");
+  list-style-position: inside;
+   padding: 5px;
+}
+/* NOTICIAS UNICAS*/
+
+/* Associe-se*/
+.titulos-associe-se{
+    font-family: 'Mplusrounded1c', sans-serif;
+    font-weight: 700;
+}
+.paragrafo-associe-se{
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.associado-fncc .card{
+    border-radius: 60px 60px 60px 0px;
+    border: none;
+   
+}
+.letra-destaque{
+    font-family: 'Mplusrounded1c', sans-serif;
+    font-weight: 700;
+    float: left;
+    font-size: 8.4em;
+    line-height: .68;
+    font-weight: 100;
+    margin: .05em .1em 0 0;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.c1{
+    background-color: #2467EC2e;
+     box-shadow: 0 0 15px 3px #2467EC2e;
+}
+.c2{
+    background-color: #785aa22e;
+     box-shadow: 0 0 15px 3px #785aa22e;
+}
+.c3{
+    background-color: #FFD70F2e;
+     box-shadow: 0 0 15px 3px #FFD70F2e;
+}
+.c4{
+    background-color: #0500302e;
+     box-shadow: 0 0 15px 3px #0500302e;
+}
+
+.contato-associe-se h5{
+    color:#785aa2;
+    font-family: 'Mplusrounded1c', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    font-size: 22px;
+}
+.contato-associe-se h6{
+    color:#785aa2;
+    font-family: 'Mplusrounded1c', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+.contato-associe-se a{
+        text-decoration: none;
+        color: #2467EC;
+    }
+    
+    .form-associe-se{
+         background-color: #050030;
+         border-radius: 60px 60px 60px 0;
+         padding: 15px;
+         box-shadow: 0 0 15px 3px #2467EC2e;
+         position: relative;
+         z-index: 1;
+         overflow: hidden;
+    }
+    .form-associe-se input{
+        border-radius: 20px 20px 20px 20px;
+        background-color: #ffffff;
+    }
+    .form-associe-se input:hover{
+        box-shadow: none;
+        outline: none;
+    }
+    .todos-contatos-associe-se{
+        background-color: #fafafa;
+         border-radius: 60px 60px 60px 0;
+         padding: 15px;
+         box-shadow: 0 0 15px 3px #2467EC2e;
+         position: relative;
+         z-index: 1;
+         overflow: hidden;
+    }
+    #img-direita{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    width: 30%;
+    max-width: 90px;
+    }
+    #img-esquerda{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 30%;
+    max-width: 85px;
+    }
+/* Associe-se*/
