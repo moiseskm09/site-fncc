@@ -824,7 +824,7 @@ text-decoration: none;
 }
 
 .contate-nos p, .contate-nos .rede-social{
-    padding-left: 20px;
+    padding-left: 25px;
 }
 .contate-nos i{
     color: #2467EC;
@@ -833,4 +833,71 @@ text-decoration: none;
 .contate-nos .rede-social i{
     color:#ffffff;
 }
+.contate-nos a{
+    text-decoration: none;
+    font-size: 20px;
+   color:#785aa2;
+}
+.fundo-contatos{
+    border-radius: 60px 60px 60px 0;
+         padding: 20px;
+         box-shadow: 0 0 15px 3px #2467EC2e;
+         position: relative;
+         z-index: 1;
+         overflow: hidden;
+         background-color: #ffffff;
+}
+#img-direita-contato{
+    position: absolute;
+    right: -50px;
+    bottom: 0px;
+    z-index: -1;
+    width: 50%;
+    max-width: 200px;
+    }
+    
+    .fundo-contatos2{
+    border-radius: 60px 60px 60px 0;
+         padding: 20px;
+         box-shadow: 0 0 15px 3px #2467EC2e;
+         position: relative;
+         z-index: 1;
+         overflow: hidden;
+         background-color: #ffffff;
+}
+#img-direita-contato2{
+    position: absolute;
+    right: -50px;
+    bottom: 0px;
+    z-index: -1;
+    width: 60%;
+    max-width: 200px;
+    }
+    #img-esquerda-contato2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 50%;
+    max-width: 124px;
+    }
+    .linha-endereco{
+        background-color: #ffffff;
+         border-radius: 60px 60px 60px 0;
+         padding: 20px;
+         box-shadow: 0 0 15px 3px #2467EC2e;
+         position: relative;
+         overflow: hidden;
+         z-index: 1;
+    }
+    
+    
+     #img-esquerda-contato3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    width: 50%;
+    max-width: 170px;
+    }
 /* Contate-nos */
