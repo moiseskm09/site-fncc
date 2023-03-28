@@ -1,6 +1,6 @@
 <?php 
-$nomeNoticia = substr($_GET["noticia"], 22);
-
+$nomeNoticia = $_GET["noticia"];
+echo "Ola moises: ".$nomeNoticia;
 ?>
 <!doctype html>
 <html lang="pt-br">
