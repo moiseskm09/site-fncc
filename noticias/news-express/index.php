@@ -1,8 +1,9 @@
-<?php 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-$nomeNoticia = $_GET["noticia"];
-echo "Ola moises: ".$nomeNoticia;
+<?php
+if(empty($_GET["noticia"])){
+    header("location: ../../noticias");
+}else{
+    $nomeNoticia = $_GET["noticia"];
+}
 ?>
 <!doctype html>
 <html lang="pt-br">
