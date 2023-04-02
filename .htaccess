@@ -6,8 +6,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^noticias/news-express/([A-Za-z0-9-]+)$ noticias/news-express/?noticia=$1
 
 # Cache de arquivo
-<FilesMatch "\.(js|css|png|jpg|jpeg|webp|woff|php|)$">
-Header set Cache-Control "max-age=2592000"
+<FilesMatch "\.(js|css|gif|png|jpeg|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$">
+Header set Cache-Control "max-age=5184000"
 </FilesMatch>
 
 # Página de erro personalizada

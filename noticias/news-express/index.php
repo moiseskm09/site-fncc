@@ -3,6 +3,19 @@ if(empty($_GET["noticia"])){
     header("location: ../../noticias");
 }else{
     $nomeNoticia = $_GET["noticia"];
+    include_once '../../config/conexao.php';
+    
+    $buscaNoticia = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE slug_noticia = '$nomeNoticia'");
+    if(mysqli_num_rows($buscaNoticia) > 0){
+        $resultadoNoticia = mysqli_fetch_assoc($buscaNoticia);
+        $tituloNoticia = $resultadoNoticia["titulo_noticia"];
+        $subtituloNoticia = $resultadoNoticia["subtitulo_noticia"];
+        $textoNoticia = $resultadoNoticia["texto_noticia"];
+        $categoriaNoticia = $resultadoNoticia["categoria_noticia"];
+        $dataNoticia = $resultadoNoticia["data_noticia"];
+    }else{
+       header("location: ../../noticias"); 
+    }
 }
 ?>
 <!doctype html>
@@ -12,6 +25,14 @@ if(empty($_GET["noticia"])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
     <title>News e Express - FNCC</title>
+    <meta name="title" content="News e Express - FNCC">
+<meta name="description" content="A FNCC é uma federação constituída para representar o interesse das suas cooperativas associadas junto aos órgãos governamentais, instituições financeiras e entidades de todo o segmento do cooperativismo de crédito, apoiando as suas federadas no desenvolvimento das suas atividades.">
+<meta name="keywords" content="fncc,FNCC, federação, federacao, FEDERAÇÃO, FEDERAÇÃO, cooperativa, COOPERATIVA, cooperativas, COOPERATIVAS, crédito, credito, emprestimo, empréstimos, empréstimo,cooperativismo, noticias, são paulo, sao paulo, brasil, consultoria, consultoria técnica, consultoria tecnica, consultoria jurídica, consultoria juridica, normas, normativo, regras, finanças, financeiro, cooperar, gestão, estratégia, estrategia, assitência, parceria, parceiros, ouvidoria, ouvidor, denúncias, atendimento, representação, representatividade, benchmarking, assembleia, processos, capacitação, workshops, foruns, palestras, conecta">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="revisit-after" content="1 day">
+<meta name="description" content="Portuguese">
+<meta name="author" content="beMK - https://bemktech.com.br">
     <link rel="icon" type="image/png" sizes="512x512" href="../../assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="48x48" href="../../assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/imagens/icones/fncc-logotipo-colorido.webp">
@@ -35,7 +56,7 @@ if(empty($_GET["noticia"])){
                   <div class="row align-content-center text-center">
                       <div class="col-12" >
                           <h1 class="titulo-topo">NOTÍCIAS</h1>
-                          <p class="subtitulo-topo fw-bold">30 ANOS DA COOPERCREDI GRUPO FLEURY</p>
+                          <p class="subtitulo-topo fw-bold"><?php echo $tituloNoticia;?></p>
                       </div>
                   </div>
               </div>
@@ -45,32 +66,21 @@ if(empty($_GET["noticia"])){
                   <div class="row mb-4 mt-4">
                       <div class="col-lg-8 col-md-8 col-12">
                           <div class="titulo-post">
-                            <h3>30 ANOS DA COOPERCREDI GRUPO FLEURY</h3>  
+                            <h3><?php echo $tituloNoticia;?></h3>  
                         </div>
                           <div class="img-post">
                             <img src="../../assets/imagens/posts/post9.webp" alt="imagem noticia"/>
                         </div>
                     
                       <div class="subtitulo-post mb-3">
-                        <h5>Confiança dos associados na cooperativa marcam essas três décadas de existência.</h5> 
+                        <h5><?php echo $subtituloNoticia;?></h5> 
                     </div>
                       <div class="texto-post">
                           <p>
-                            No dia 19 de março de 2023 a CooperCredi Grupo Fleury comemora 30 anos de história. A cooperativa, que hoje tem 2.263 associados, celebra e valoriza essa data junto aos seus associados.
-
-                            <br>Assim como muitas cooperativas, nos últimos anos os desafios superados foram muitos, como: manter a estabilidade econômica e operacional da cooperativa, a qualidade no atendimento durante e após o período de pandemia.
-<br>Com a nova realidade, tivemos que nos reinventar, e as adaptações e implementações de tecnologias foram acontecendo, para atendimento remoto aos nossos associados.
-
-<br>A CooperCredi Grupo Fleury prioriza a qualidade no atendimento e a satisfação de seus associados, promovendo inovações, e não menos importante, a divulgação da cooperativa junto ao grande número de potencial da empresa mantenedora Fleury, com objetivo de conquistar o maior número de novos associados.
-
-<br>Somado a tudo isso, para um futuro próximo, a Diretoria da Coopercredi Fleury tem muitos desafios pela frente: ainda com o foco no crescimento do Quadro Social da Cooperativa, promover produtos, além do financeiro (empréstimos), o lazer entre outros.
-
-<br>Para a CooperCredi Grupo Fleury, a parceria junto à FNCC é de grande relevância, segundo Ana Maria G. Allegretto. A “Federação” nos assessora com direcionamento de normas, orientações jurídicas, atendimentos de exigências junto ao Banco Central, a Jucesp e demais órgãos, reuniões e treinamentos, sempre com zelo e presteza.
-
-<br>A FNCC parabeniza a cooperativa pelos 30 anos e deseja que os próximos venham com muitos desafios superados, intercooperação e metas alcançadas.
+<?php echo $textoNoticia;?>
                         </p>
                         <div class="categoria-post">
-                            <span class="badge text-bg-primary">News </span> <span class="float-end data-post"> 08 de Mar de 2023</span> 
+                            <span class="badge text-bg-primary"><?php echo $categoriaNoticia;?> </span> <span class="float-end data-post"> <?php echo strftime('%d de %b de %Y', strtotime($dataNoticia));?></span> 
                         </div>
                     </div>
                         </div>

@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
     <title>Nossas Associadas - FNCC</title>
+    <meta name="title" content="Associadas - FNCC">
+<meta name="description" content="A FNCC é uma federação constituída para representar o interesse das suas cooperativas associadas junto aos órgãos governamentais, instituições financeiras e entidades de todo o segmento do cooperativismo de crédito, apoiando as suas federadas no desenvolvimento das suas atividades.">
+<meta name="keywords" content="fncc,FNCC, federação, federacao, FEDERAÇÃO, FEDERAÇÃO, cooperativa, COOPERATIVA, cooperativas, COOPERATIVAS, crédito, credito, emprestimo, empréstimos, empréstimo,cooperativismo, noticias, são paulo, sao paulo, brasil, consultoria, consultoria técnica, consultoria tecnica, consultoria jurídica, consultoria juridica, normas, normativo, regras, finanças, financeiro, cooperar, gestão, estratégia, estrategia, assitência, parceria, parceiros, ouvidoria, ouvidor, denúncias, atendimento, representação, representatividade, benchmarking, assembleia, processos, capacitação, workshops, foruns, palestras, conecta">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="revisit-after" content="1 day">
+<meta name="description" content="Portuguese">
+<meta name="author" content="beMK - https://bemktech.com.br">
+
     <link rel="icon" type="image/png" sizes="512x512" href="../assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="48x48" href="../assets/imagens/icones/fncc-logotipo-colorido.webp">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/imagens/icones/fncc-logotipo-colorido.webp">
