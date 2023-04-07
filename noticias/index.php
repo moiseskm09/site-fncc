@@ -1,3 +1,6 @@
+<?php 
+include_once '../config/conexao.php';
+?>
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -43,7 +46,10 @@
               </div>
           </div>
           <section class="todas-noticias espacamento">
-              <div class="container-fluid espacamento-lateral">
+              <div class="container-fluid espacamento-lateral">   
+                  <?php 
+                  $buscaNoticia = mysqli_query($conexao, "SELECT * FROM ")
+                  ?>
                   <div class="row">
                       <div class="col-lg-6 col-md-6 col-12">
                         <a href="#">

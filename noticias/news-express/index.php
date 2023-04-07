@@ -1,13 +1,12 @@
 <?php
+include_once '../../config/conexao.php';
+
 if(empty($_GET["noticia"])){
     header("location: ../../noticias");
 }else{
     date_default_timezone_set('America/Sao_Paulo');
-//setlocale (LC_ALL, 'ptb');
 setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
-    $nomeNoticia = $_GET["noticia"];
-    include_once '../../config/conexao.php';
-    
+    $nomeNoticia = $_GET["noticia"]; 
     $buscaNoticia = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE slug_noticia = '$nomeNoticia'");
     if(mysqli_num_rows($buscaNoticia) > 0){
         $resultadoNoticia = mysqli_fetch_assoc($buscaNoticia);
@@ -101,7 +100,7 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
                                         while ($resultadoNoticiaRecente = mysqli_fetch_assoc($buscaNoticiasRecentes)){
                                     ?>
                                   <li>
-                                    <a href="https://bemktech.com.br/noticias/news-express/<?php echo $resultadoNoticiaRecente["slug_noticia"];?>">
+                                    <a href="https://bemktech.com.br/site-fncc/noticias/news-express/<?php echo $resultadoNoticiaRecente["slug_noticia"];?>">
                                           <?php echo $resultadoNoticiaRecente["titulo_noticia"];?>
                                     </a>
                                   </li>
