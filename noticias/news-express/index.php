@@ -2,6 +2,9 @@
 if(empty($_GET["noticia"])){
     header("location: ../../noticias");
 }else{
+    date_default_timezone_set('America/Sao_Paulo');
+//setlocale (LC_ALL, 'ptb');
+setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
     $nomeNoticia = $_GET["noticia"];
     include_once '../../config/conexao.php';
     
@@ -12,6 +15,7 @@ if(empty($_GET["noticia"])){
         $subtituloNoticia = $resultadoNoticia["subtitulo_noticia"];
         $textoNoticia = $resultadoNoticia["texto_noticia"];
         $categoriaNoticia = $resultadoNoticia["categoria_noticia"];
+        $imgNoticia = $resultadoNoticia["img_noticia"];
         $dataNoticia = $resultadoNoticia["data_noticia"];
     }else{
        header("location: ../../noticias"); 
@@ -69,7 +73,7 @@ if(empty($_GET["noticia"])){
                             <h3><?php echo $tituloNoticia;?></h3>  
                         </div>
                           <div class="img-post">
-                            <img src="../../assets/imagens/posts/post9.webp" alt="imagem noticia"/>
+                            <img src="../../assets/imagens/imagens_noticias/<?php echo $imgNoticia;?>" alt="imagem noticia"/>
                         </div>
                     
                       <div class="subtitulo-post mb-3">
@@ -91,14 +95,22 @@ if(empty($_GET["noticia"])){
                           </div>
                             <div class="relacionadas">
                                 <ul>
-                                  <li><a href="#">TREINAMENTO DE ADEQUAÇÕES NOS ESTATUTOS SOCIAIS FOI REALIZADO PELA FNCC</a></li>
-                                  <li><a href="#">FNCC OFERECE SERVIÇO DE PROCESSOS ASSEMBLEARES</a></li>
-                                  <li><a href="#">CHEGAMOS AOS 9 ANOS DE EXISTÊNCIA! E É SÓ O COMEÇO!</a></li>
-                                  <li><a href="#">4º FÓRUM INTEGRATIVO CONFEBRAS TEVE SEU INÍCIO COM DIÁLOGO EM FOCO</a></li>
-                                  <li><a href="#">COOPERPLASCAR COMPLETA 40 ANOS DE HISTÓRIA</a></li>
-                                  <li><a href="#">TREINAMENTO DE PROCESSOS ASSEMBLEARES É OFERECIDO PELA FNCC</a></li>
-                                  <li><a href="#">DIRETOR PRESIDENTE DA FNCC PARTICIPOU DO PROGRAMA LÍDER CRÉDITO SP</a></li>
-                                  <li><a href="#">TREINAMENTO DE OUVIDORIA ABRE O ANO DE CAPACITAÇÕES OFERECIDAS PELA FNCC</a></li>
+                                    <?php 
+                                    $buscaNoticiasRecentes = mysqli_query($conexao, "SELECT titulo_noticia, slug_noticia FROM site_noticias WHERE slug_noticia != '$nomeNoticia' ORDER BY cod_noticia DESC LIMIT 8");
+                                    if(mysqli_num_rows($buscaNoticiasRecentes) > 0 ){
+                                        while ($resultadoNoticiaRecente = mysqli_fetch_assoc($buscaNoticiasRecentes)){
+                                    ?>
+                                  <li>
+                                    <a href="https://bemktech.com.br/noticias/news-express/<?php echo $resultadoNoticiaRecente["slug_noticia"];?>">
+                                          <?php echo $resultadoNoticiaRecente["titulo_noticia"];?>
+                                    </a>
+                                  </li>
+                                  <?php 
+                                        }
+                                    }else{
+                                  ?>
+                                  <li><a href="#">Não há notícias recentes a serem exibidas</a></li>
+                                    <?php }?>
                               </ul>
                           </div>
                       </div>
