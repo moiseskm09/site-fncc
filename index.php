@@ -1,3 +1,6 @@
+<?php 
+include_once 'config/conexao.php';
+?>
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -44,8 +47,8 @@
               </div>
             </div>
             <div class="col-12 mt-3 text-center d-none d-sm-block d-sm-none d-md-block">
-                <button type="button" class="btn btn-outline-light">QUEM SOMOS</button>
-                <button type="button" class="btn btn-outline-light">NOSSAS ASSOCIADAS</button>
+                <a href="https://bemktech.com.br/site-fncc/quem-somos" class="btn btn-outline-light">QUEM SOMOS</a>
+                <a href="https://bemktech.com.br/site-fncc/associadas" type="button" class="btn btn-outline-light">NOSSAS ASSOCIADAS</a>
             </div>
           </div>
         </div>
@@ -149,7 +152,7 @@
                 <p>A FNCC é uma federação constituída para representar o interesse das suas cooperativas associadas junto aos órgãos governamentais, instituições financeiras e entidades de todo o segmento do cooperativismo de crédito, apoiando as suas federadas no desenvolvimento das suas atividades.</p>
                 <p>Por meio de uma gestão participativa e transparente, que promove a doutrina cooperativista, a FNCC busca organizar em comum e maior escala, serviços imprescindíveis para suas federadas, promovendo assistência e oferecendo parcerias estratégicas, visando o contínuo aprimoramento técnico e profissional de todos os integrantes do seu quadro social.</p>
                 <div class="alinhamento-centro">
-                  <a href="#" class="btn btn-padrao btn-md">
+                  <a href="https://bemktech.com.br/site-fncc/quem-somos" class="btn btn-padrao btn-md">
                       SAIBA MAIS SOBRE A FNCC <i class="bi bi-arrow-right-circle"></i>
                   </a>
                 </div>
@@ -698,62 +701,29 @@
             </div>
           </div>
           <div class="row row-cols-1 row-cols-md-4 g-4">
+              <?php 
+              $buscaNoticia = mysqli_query($conexao, "SELECT titulo_noticia, subtitulo_noticia, img_noticia, slug_noticia, data_publicacao FROM site_noticias ORDER BY cod_noticia DESC LIMIT 4");
+              if(mysqli_num_rows($buscaNoticia) > 0 ){
+                  while($resultadoNoticia = mysqli_fetch_assoc($buscaNoticia)){
+              ?>
             <div class="col">
-              <a href="#">
+              <a href="https://bemktech.com.br/site-fncc/noticias/news-express/<?php echo $resultadoNoticia["slug_noticia"]?>">
                 <div class="card h-100 mb-3">
-                  <img src="assets/imagens/home/post2.webp" class="card-img-top" alt="img post">
+                  <img src="assets/imagens/imagens_noticias/<?php echo $resultadoNoticia["img_noticia"]?>" class="card-img-top" alt="img post">
                   <div class="card-body">
-                    <h5 class="card-title fw-bold">Chegamos aos 9 anos de existência! E é só o começo!</h5>
-                    <p class="card-text">Este mês, a FNCC sopra as velas e comemora 9 anos de existência! Os primeiros passos da Federação já se mostram grandes ...</p>
+                      <h5 class="card-title fw-bold"><?php echo ucfirst(mb_strtolower($resultadoNoticia["titulo_noticia"]));?></h5>
+                    <!--<p class="card-text"><?php //echo substr($resultadoNoticia["subtitulo_noticia"], 0, 120)." ...";?></p> -->
+                     
                   </div>
                   <div class="card-footer">
-                    <small class="postado">Postado em: 10-03-2023</small>
+                    <small class="postado">Postado em: <?php echo strftime('%d-%m-%Y', strtotime($resultadoNoticia["data_publicacao"]));?></small>
                   </div>
                 </div> 
               </a>
             </div>
-            <div class="col">
-              <a href="#">
-                <div class="card h-100 mb-3">
-                  <img src="assets/imagens/home/post1.webp" class="card-img-top" alt="img post">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">4º fórum integrativo confebras teve seu início com diálogo em foco</h5>
-                    <p class="card-text">Contando com a co-realização da Federação e apoio da OCB, a quarta edição do Fórum Integrativo Confebras ...</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="postado">Postado em: 10-03-2023</small>
-                  </div>
-                </div> 
-              </a>
-            </div>
-            <div class="col">
-              <a href="#">
-                <div class="card h-100 mb-3">
-                  <img src="assets/imagens/home/post3.webp" class="card-img-top" alt="img post">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Cooperplascar completa 40 anos de história</h5>
-                    <p class="card-text">Hoje com 355 associados, a cooperativa segue evoluindo ...</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="postado">Postado em: 10-03-2023</small>
-                  </div>
-                </div> 
-              </a>
-            </div>
-            <div class="col">
-              <a href="#">
-                <div class="card h-100 mb-3">
-                  <img src="assets/imagens/home/post4.webp" class="card-img-top" alt="img post">
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Treinamento de processos assembleares é oferecido pela FNCC</h5>
-                    <p class="card-text">Nos dias 13 e 14 de fevereiro aconteceu mais um treinamento oferecido pela FNCC em 2023 ...</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="postado">Postado em: 10-03-2023</small>
-                  </div>
-                </div> 
-              </a>
-            </div>
+              <?php 
+              } }
+              ?>
           </div>
         </div>
       </section>

@@ -1,5 +1,7 @@
 <?php 
 include_once '../config/conexao.php';
+date_default_timezone_set('America/Sao_Paulo');
+setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 ?>
 <!doctype html>
 <html lang="pt-br">
@@ -48,182 +50,90 @@ include_once '../config/conexao.php';
           <section class="todas-noticias espacamento">
               <div class="container-fluid espacamento-lateral">   
                   <?php 
-                  $buscaNoticia = mysqli_query($conexao, "SELECT * FROM ")
+                  $buscaNoticia = mysqli_query($conexao, "SELECT * FROM site_noticias ORDER BY cod_noticia DESC LIMIT 1");
+                  if(mysqli_num_rows($buscaNoticia) > 0){
+                      $resultadoNoticiaDestaque = mysqli_fetch_assoc($buscaNoticia);
+                      $codNoticiaDestque = $resultadoNoticiaDestaque["cod_noticia"];
+                  }
                   ?>
                   <div class="row">
                       <div class="col-lg-6 col-md-6 col-12">
-                        <a href="#">
+                        <a href="https://bemktech.com.br/site-fncc/noticias/news-express/<?php echo $resultadoNoticiaDestaque["slug_noticia"]?>">
                         <div class="card h-100 mb-3">
-                          <img src="../assets/imagens/posts/post9.webp" class="card-img-top" alt="imagem post">
+                          <img src="../assets/imagens/imagens_noticias/<?php echo $resultadoNoticiaDestaque["img_noticia"]?>" class="card-img-top" alt="imagem post">
   <div class="card-body">
     <div class="topo-noticia-destaque mb-3">
-      <span class="badge text-bg-primary">Express </span> <span class="float-end data-postagem"> 17 de Mar de 2023</span> 
+      <span class="badge <?php if($resultadoNoticiaDestaque["categoria_noticia"] == "News"){echo "text-bg-info";}else{ echo "text-bg-success";}?>"><?php echo $resultadoNoticiaDestaque["categoria_noticia"];?> </span> <span class="float-end data-postagem"> <?php echo strftime('%d de %b de %Y', strtotime($resultadoNoticiaDestaque["data_publicacao"]));?></span> 
     </div>
-    <h5>30 ANOS DA COOPERCREDI GRUPO FLEURY</h5>
-    <p>No dia 19 de março de 2023 a CooperCredi Grupo Fleury comemora 30 anos de história. A cooperativa, que hoje tem 2.263 associados, celebra e valoriza essa data junto aos seus associados....</p>
+    <h5><?php echo $resultadoNoticiaDestaque["titulo_noticia"]?></h5>
+    <h6 style="max-width: 100%; color: #785aa2;"><?php echo substr($resultadoNoticiaDestaque["subtitulo_noticia"], 0, 300)." ...";?></h6>
   </div>
 </div>
                         </a>
                     </div>
                       <div class="col-lg-6 col-md-6 col-12">
                           <div class="row g-0">
+                              <?php 
+                              $buscaNoticiaLinha1 = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE cod_noticia != '$codNoticiaDestque' ORDER BY cod_noticia DESC LIMIT 4");
+                              if(mysqli_num_rows($buscaNoticiaLinha1) > 0 ){
+                                  while($resultadoPrimeiraLinha = mysqli_fetch_assoc($buscaNoticiaLinha1)){
+                                      $ultimaNoticiaPrimeiraLinha = $resultadoPrimeiraLinha["cod_noticia"];
+                              ?>
                               <div class="col-12">
-                                 <a href="#">
+                                 <a href="https://bemktech.com.br/site-fncc/noticias/news-express/<?php echo $resultadoPrimeiraLinha["slug_noticia"];?>">
                                 <div class="card mb-3">
   <div class="card-body n-mobile">
       <div class="row">
           <div class="col-lg-5 col-md-5 col-12">
-              <img src="../assets/imagens/posts/post8.webp" class="card-img-top" alt="imagem post" style="height: 100%;">
+              <img src="../assets/imagens/imagens_noticias/<?php echo $resultadoPrimeiraLinha["img_noticia"];?>" class="card-img-top" alt="imagem post" style="height: 100%;">
         </div>
           <div class="col-lg-7 col-md-7 col-12">
              <div class="topo-noticia-destaque mt-2 mb-3">
-      <span class="badge text-bg-danger">News </span> <span class="data-postagem"> 17 de Mar de 2023</span> 
+      <span class="badge <?php if($resultadoPrimeiraLinha["categoria_noticia"] == "News"){echo "text-bg-info";}else{ echo "text-bg-success";}?>"><?php echo $resultadoPrimeiraLinha["categoria_noticia"];?> </span> <span class="data-postagem"> <?php echo strftime('%d de %b de %Y', strtotime($resultadoPrimeiraLinha["data_publicacao"]));?></span> 
     </div>
-    <h4>TREINAMENTO DE ADEQUAÇÕES NOS ESTATUTOS SOCIAIS FOI REALIZADO PELA FNCC</h4> 
+    <h4><?php echo $resultadoPrimeiraLinha["titulo_noticia"]?></h4> 
         </div>
     </div>
   </div>
 </div>
                                  </a>
                         </div>
-                            <div class="col-12">
-                               <a href="#">
-                                <div class="card mb-3">
-  <div class="card-body n-mobile">
-      <div class="row">
-          <div class="col-lg-5 col-md-5 col-12">
-              <img src="../assets/imagens/posts/post7.webp" class="card-img-top" alt="imagem post" style="height: 100%;">
-        </div>
-          <div class="col-lg-7 col-md-7 col-12">
-             <div class="topo-noticia-destaque mt-2 mb-3">
-      <span class="badge text-bg-success">News </span> <span class="data-postagem"> 15 de Mar de 2023</span> 
-    </div>
-    <h4>FNCC OFERECE SERVIÇO DE PROCESSOS ASSEMBLEARES</h4> 
-        </div>
-    </div>
-  </div>
-</div>
-                               </a>
-                        </div>
-                            <div class="col-12">
-                              <a href="#">
-                                <div class="card mb-3">
-  <div class="card-body n-mobile">
-      <div class="row">
-          <div class="col-lg-5 col-md-5 col-12">
-              <img src="../assets/imagens/posts/post6.webp" class="card-img-top" alt="imagem post" style="height: 100%;">
-        </div>
-          <div class="col-lg-7 col-md-7 col-12">
-             <div class="topo-noticia-destaque mt-2 mb-3">
-      <span class="badge text-bg-warning">Express </span> <span class="data-postagem"> 10 de Mar de 2023</span> 
-    </div>
-    <h4>CHEGAMOS AOS 9 ANOS DE EXISTÊNCIA! E É SÓ O COMEÇO!</h4> 
-        </div>
-    </div>
-  </div>
-</div>
-                              </a>
-                        </div>
-                             <div class="col-12">
-                              <a href="#">
-                                <div class="card mb-3">
-  <div class="card-body n-mobile">
-      <div class="row">
-          <div class="col-lg-5 col-md-5 col-12">
-              <img src="../assets/imagens/posts/post5.webp" class="card-img-top" alt="imagem post" style="height: 100%;">
-        </div>
-          <div class="col-lg-7 col-md-7 col-12">
-             <div class="topo-noticia-destaque mt-2 mb-3">
-      <span class="badge text-bg-info">News </span> <span class="data-postagem"> 08 de Mar de 2023</span> 
-    </div>
-    <h4>4º FÓRUM INTEGRATIVO CONFEBRAS TEVE SEU INÍCIO COM DIÁLOGO EM FOCO</h4> 
-        </div>
-    </div>
-  </div>
-</div>
-                              </a>
-                        </div>
+                              <?php 
+                                  }
+                              }
+                              ?>
                     </div>
                 </div>
                       
             </div>
                   <div class="row mt-3">
+                      <?php 
+                              $buscaNoticiaLinha2 = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE cod_noticia < '$ultimaNoticiaPrimeiraLinha' ORDER BY cod_noticia DESC LIMIT 15");
+                              if(mysqli_num_rows($buscaNoticiaLinha2) > 0 ){
+                                  while($resultadoSegundaLinha = mysqli_fetch_assoc($buscaNoticiaLinha2)){
+                              ?>
                     <div class="col-lg-3 col-md-3 col-12">
-                              <a href="#">
+                              <a href="https://bemktech.com.br/site-fncc/noticias/news-express/<?php echo $resultadoSegundaLinha["slug_noticia"]?>">
                                 <div class="card mb-3">
   <div class="card-body n-mobile">
       <div class="row">
           <div class="col-lg-12 col-md-12 col-12">
-              <img src="../assets/imagens/posts/post4.webp" class="card-img-top" alt="imagem post" style="height: 100%;">
+              <img src="../assets/imagens/imagens_noticias/<?php echo $resultadoSegundaLinha["img_noticia"]?>" class="card-img-top" alt="imagem post" style="height: 100%;">
         </div>
           <div class="col-lg-12 col-md-12 col-12">
              <div class="topo-noticia-destaque mt-2 mb-3">
-      <span class="badge text-bg-success">Express </span> <span class="data-postagem"> 02 de Mar de 2023</span> 
+      <span class="badge <?php if($resultadoSegundaLinha["categoria_noticia"] == "News"){echo "text-bg-info";}else{ echo "text-bg-success";}?>"><?php echo $resultadoSegundaLinha["categoria_noticia"]?> </span> <span class="data-postagem"> <?php echo strftime('%d de %b de %Y', strtotime($resultadoSegundaLinha["data_publicacao"]));?></span> 
     </div>
-    <h4>COOPERPLASCAR COMPLETA 40 ANOS DE HISTÓRIA</h4> 
+    <h4><?php echo $resultadoSegundaLinha["titulo_noticia"]?></h4> 
         </div>
     </div>
   </div>
 </div>
                               </a>
                         </div>
-                    <div class="col-lg-3 col-md-3 col-12">
-                              <a href="#">
-                                <div class="card mb-3">
-  <div class="card-body n-mobile">
-      <div class="row">
-          <div class="col-lg-12 col-md-12 col-12">
-              <img src="../assets/imagens/posts/post3.webp" class="card-img-top" alt="imagem post" style="height: 100%;">
-        </div>
-          <div class="col-lg-12 col-md-12 col-12">
-             <div class="topo-noticia-destaque mt-2 mb-3">
-      <span class="badge text-bg-dark">News </span> <span class="data-postagem"> 17 de Fev de 2023</span> 
-    </div>
-    <h4>TREINAMENTO DE PROCESSOS ASSEMBLEARES É OFERECIDO PELA FNCC</h4> 
-        </div>
-    </div>
-  </div>
-</div>
-                              </a>
-                        </div>
-                    <div class="col-lg-3 col-md-3 col-12">
-                              <a href="#">
-                                <div class="card mb-3">
-  <div class="card-body n-mobile">
-      <div class="row">
-          <div class="col-lg-12 col-md-12 col-12">
-              <img src="../assets/imagens/posts/post2.webp" class="card-img-top" alt="imagem post" style="height: 100%;">
-        </div>
-          <div class="col-lg-12 col-md-12 col-12">
-             <div class="topo-noticia-destaque mt-2 mb-3">
-      <span class="badge text-bg-secondary">News </span> <span class="data-postagem"> 07 de Fev de 2023</span> 
-    </div>
-    <h4>DIRETOR PRESIDENTE DA FNCC PARTICIPOU DO PROGRAMA LÍDER CRÉDITO SP</h4> 
-        </div>
-    </div>
-  </div>
-</div>
-                              </a>
-                        </div>
-                    <div class="col-lg-3 col-md-3 col-12">
-                              <a href="#">
-                                <div class="card mb-3">
-  <div class="card-body n-mobile">
-      <div class="row">
-          <div class="col-lg-12 col-md-12 col-12">
-              <img src="../assets/imagens/posts/post1.webp" class="card-img-top" alt="imagem post" style="height: 100%;">
-        </div>
-          <div class="col-lg-12 col-md-12 col-12">
-             <div class="topo-noticia-destaque mt-2 mb-3">
-      <span class="badge text-bg-primary">Express </span> <span class="data-postagem"> 30 de Jan de 2023</span> 
-    </div>
-    <h4>TREINAMENTO DE OUVIDORIA ABRE O ANO DE CAPACITAÇÕES OFERECIDAS PELA FNCC</h4> 
-        </div>
-    </div>
-  </div>
-</div>
-                              </a>
-                        </div>
+                   <?php 
+                   } }
+                   ?>
                 </div>
               </div>
         </section>
