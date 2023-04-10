@@ -7,7 +7,7 @@ if(empty($_GET["noticia"])){
     date_default_timezone_set('America/Sao_Paulo');
 setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
     $nomeNoticia = $_GET["noticia"]; 
-    $buscaNoticia = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE slug_noticia = '$nomeNoticia'");
+    $buscaNoticia = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE slug_noticia = '$nomeNoticia' and publicado = 1");
     if(mysqli_num_rows($buscaNoticia) > 0){
         $resultadoNoticia = mysqli_fetch_assoc($buscaNoticia);
         $tituloNoticia = $resultadoNoticia["titulo_noticia"];
@@ -95,7 +95,7 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
                             <div class="relacionadas">
                                 <ul>
                                     <?php 
-                                    $buscaNoticiasRecentes = mysqli_query($conexao, "SELECT titulo_noticia, slug_noticia FROM site_noticias WHERE slug_noticia != '$nomeNoticia' ORDER BY cod_noticia DESC LIMIT 8");
+                                    $buscaNoticiasRecentes = mysqli_query($conexao, "SELECT titulo_noticia, slug_noticia FROM site_noticias WHERE slug_noticia != '$nomeNoticia' and publicado = 1 ORDER BY cod_noticia DESC LIMIT 8");
                                     if(mysqli_num_rows($buscaNoticiasRecentes) > 0 ){
                                         while ($resultadoNoticiaRecente = mysqli_fetch_assoc($buscaNoticiasRecentes)){
                                     ?>

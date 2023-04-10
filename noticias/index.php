@@ -1,5 +1,7 @@
 <?php 
 include_once '../config/conexao.php';
+ini_set('display_errors', 0);
+error_reporting(0);
 date_default_timezone_set('America/Sao_Paulo');
 setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 ?>
@@ -33,6 +35,7 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
     <link href="../assets/css/aos.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
     <link href="../assets/css/default.css" rel="stylesheet">
+    <script src="carrega_noticia.js"></script>
   </head>
   <body>
       <?php require_once '../assets/menu.php';?>
@@ -48,15 +51,14 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
               </div>
           </div>
           <section class="todas-noticias espacamento">
-              <div class="container-fluid espacamento-lateral">   
+              <div class="container-fluid espacamento-lateral">  
+                  <div class="row">
                   <?php 
-                  $buscaNoticia = mysqli_query($conexao, "SELECT * FROM site_noticias ORDER BY cod_noticia DESC LIMIT 1");
+                  $buscaNoticia = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE publicado = 1 ORDER BY cod_noticia DESC LIMIT 1");
                   if(mysqli_num_rows($buscaNoticia) > 0){
                       $resultadoNoticiaDestaque = mysqli_fetch_assoc($buscaNoticia);
                       $codNoticiaDestque = $resultadoNoticiaDestaque["cod_noticia"];
-                  }
                   ?>
-                  <div class="row">
                       <div class="col-lg-6 col-md-6 col-12">
                         <a href="https://bemktech.com.br/site-fncc/noticias/news-express/<?php echo $resultadoNoticiaDestaque["slug_noticia"]?>">
                         <div class="card h-100 mb-3">
@@ -71,10 +73,11 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
 </div>
                         </a>
                     </div>
+                  <?php }else{ echo "<p>Não há notícias para exibir!</p>"; } ?>
                       <div class="col-lg-6 col-md-6 col-12">
                           <div class="row g-0">
                               <?php 
-                              $buscaNoticiaLinha1 = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE cod_noticia != '$codNoticiaDestque' ORDER BY cod_noticia DESC LIMIT 4");
+                              $buscaNoticiaLinha1 = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE cod_noticia != '$codNoticiaDestque' and publicado = 1 ORDER BY cod_noticia DESC LIMIT 4");
                               if(mysqli_num_rows($buscaNoticiaLinha1) > 0 ){
                                   while($resultadoPrimeiraLinha = mysqli_fetch_assoc($buscaNoticiaLinha1)){
                                       $ultimaNoticiaPrimeiraLinha = $resultadoPrimeiraLinha["cod_noticia"];
@@ -108,7 +111,7 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
             </div>
                   <div class="row mt-3">
                       <?php 
-                              $buscaNoticiaLinha2 = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE cod_noticia < '$ultimaNoticiaPrimeiraLinha' ORDER BY cod_noticia DESC LIMIT 15");
+                              $buscaNoticiaLinha2 = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE cod_noticia < '$ultimaNoticiaPrimeiraLinha' and publicado = 1 ORDER BY cod_noticia DESC LIMIT 8");
                               if(mysqli_num_rows($buscaNoticiaLinha2) > 0 ){
                                   while($resultadoSegundaLinha = mysqli_fetch_assoc($buscaNoticiaLinha2)){
                               ?>
@@ -134,6 +137,24 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
                    <?php 
                    } }
                    ?>
+                      <div> 
+                          <table>
+                              <thead>
+				<tr>
+					<td>ID</td>
+					<td>Nome</td>
+					<td>E-mail</td>
+					<td>Senha</td>
+				</tr>
+			</thead>
+			<tbody>
+				<!--Carrega os registro do ajax -->
+			</tbody>
+                          </table>
+                      </div>
+                      <div class="col-12 text-center">
+                          <button type="button" class="btn btn-outline-primary carregar-mais">Quero ver mais notícias</button>
+                      </div>
                 </div>
               </div>
         </section>

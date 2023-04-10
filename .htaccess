@@ -11,7 +11,7 @@ Header set Cache-Control "max-age=5184000"
 </FilesMatch>
 
 # Página de erro personalizada
-ErrorDocument 404 https://bemktech.com.br/site-fncc/404.php
+#ErrorDocument 404 https://bemktech.com.br/site-fncc/404.php
 
 # Impedir o acesso ao arquivo .htaccess
 <Files .htaccess>
