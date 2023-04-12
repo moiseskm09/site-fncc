@@ -111,7 +111,7 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
             </div>
                   <div class="row mt-3">
                       <?php 
-                              $buscaNoticiaLinha2 = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE cod_noticia < '$ultimaNoticiaPrimeiraLinha' and publicado = 1 ORDER BY cod_noticia DESC LIMIT 8");
+                              $buscaNoticiaLinha2 = mysqli_query($conexao, "SELECT * FROM site_noticias WHERE cod_noticia < '$ultimaNoticiaPrimeiraLinha' and publicado = 1 ORDER BY cod_noticia DESC LIMIT 4");
                               if(mysqli_num_rows($buscaNoticiaLinha2) > 0 ){
                                   while($resultadoSegundaLinha = mysqli_fetch_assoc($buscaNoticiaLinha2)){
                               ?>
@@ -137,25 +137,19 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
                    <?php 
                    } }
                    ?>
-                      <div> 
-                          <table>
-                              <thead>
-				<tr>
-					<td>ID</td>
-					<td>Nome</td>
-					<td>E-mail</td>
-					<td>Senha</td>
-				</tr>
-			</thead>
-			<tbody>
-				<!--Carrega os registro do ajax -->
-			</tbody>
-                          </table>
-                      </div>
-                      <div class="col-12 text-center">
+                </div>
+                
+                <div class="row mt-3 maisNoticias">
+                  <!-- carrega mais noticias-->
+                </div>
+                
+                <div class="row">
+                    <div class="col-12 text-center">
                           <button type="button" class="btn btn-outline-primary carregar-mais">Quero ver mais notícias</button>
                       </div>
                 </div>
+                
+                
               </div>
         </section>
       </div>
