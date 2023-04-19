@@ -89,6 +89,9 @@
           <a class="nav-link" href="https://bemktech.com.br/site-fncc/associadas">ASSOCIADAS</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="https://bemktech.com.br/site-fncc/editais">EDITAIS</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="https://bemktech.com.br/site-fncc/noticias/">NOTÍCIAS</a>
         </li>
         <li class="nav-item">
@@ -133,6 +136,7 @@
                         <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/servicos">SERVIÇOS</a>
                         <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/parcerias">PARCERIAS</a>
                         <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/associadas">ASSOCIADAS</a>
+                        <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/editais">EDITAIS</a>
                         <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/noticias/">NOTÍCIAS</a>
                         <a class="nav-link link-menu" href="https://bemktech.com.br/site-fncc/fale-conosco/">FALE CONOSCO</a>
                     </div>
