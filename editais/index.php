@@ -44,7 +44,7 @@
           </div>
           <section class="espacamento rel-editais">
               <div class="container">
-                  <div class="row row-cols-2 row-cols-md-4 g-4">
+                  <div class="row row-cols-1 row-cols-md-4 g-4">
   <div class="col">
       <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Cooperjss.pdf" target="blank">
     <div class="card h-100">
