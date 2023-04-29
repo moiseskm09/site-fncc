@@ -1,3 +1,10 @@
+<?php 
+include_once '../config/conexao.php';
+ini_set('display_errors', 0);
+error_reporting(0);
+date_default_timezone_set('America/Sao_Paulo');
+setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+?>
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -28,6 +35,7 @@
     <link href="../assets/css/aos.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
     <link href="../assets/css/default.css" rel="stylesheet">
+    <script src="carrega_edital.js"></script>
   </head>
   <body>
       <?php require_once '../assets/menu.php';?>
@@ -44,303 +52,14 @@
           </div>
           <section class="espacamento rel-editais">
               <div class="container">
-                  <div class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Cooperjss.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL COOPERJSS</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/CooperJSS.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-CooperPilkington-1.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL COOPERPILKINGTON</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/Cooper-Pilkington.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Confab-2.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL CONFAB</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/TENARIS.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Villares.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL VILARES</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/coop-Villares.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Cooper-Avibras.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL COOPER AVIBRAS</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/cooper-avibras.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Coopunesp.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL COOPUNESP</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/coopunesp.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-CoopOwens.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL COOPOWENS</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/CoopOwens.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Coopriclan.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL COOPRICLAN</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/CoopPRICLAN.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-C.E.C.M.F-da-Selene.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL C.E.C.M.F DA SELENE</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/COOPSELENE.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Usicred.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL USICRED</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/USICRED.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Crediunifi.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL CREDIUNIFI</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/CREDIUNIFI.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Grupo-PPG.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL GRUPO PPG</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/COOPERPPG.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Cooperfeis.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL COOPERFEIS</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/COOPERFEIS.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      <div class="col">
-      <a href="https://bemktech.com.br/site-fncc/assets/arquivos/editais/Edital-Piloncred.pdf" target="blank">
-    <div class="card h-100">
-        <div class="card-header">
-            <div class="row text-center align-items-center">
-                    <div class="col-12">
-                        <h6>EDITAL PILONCRED</h6>
-                        <small class="publicado">Publicado em: <?php echo strftime('%d-%m-%Y', strtotime("2023-04-17"));?></small>
-                    </div>
-            </div>
-        </div>
-        <div class="card-body p-0">
-      <img src="../assets/imagens/cooperativas/PILONCRED.webp" class="card-img-top" alt="logo cooperativa">
-        </div>
-      <div class="card-footer text-center">
-        <small class="fw-bold">Fazer o download do edital</small>
-        
-      </div>
-    </div>
-      </a>
-  </div>
-                      
+                  <div class="row row-cols-1 row-cols-md-4 mb-3 g-4 editaisM">
+                  
 </div>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                          <button type="button" class="btn btn-primary carregar-mais">Quero ver mais editais</button>
+                      </div>
+                </div>
               </div>
               </section>
       </div>

@@ -145,7 +145,7 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
                 
                 <div class="row">
                     <div class="col-12 text-center">
-                          <button type="button" class="btn btn-outline-primary carregar-mais">Quero ver mais notícias</button>
+                          <button type="button" class="btn btn-primary carregar-mais">Quero ver mais notícias</button>
                       </div>
                 </div>
                 

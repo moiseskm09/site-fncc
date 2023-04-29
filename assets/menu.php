@@ -56,7 +56,7 @@
       <!-- Menu topo-->
       <nav class="navbar navbar-expand-lg fundo-navbar d-none d-lg-flex menu">
   <div class="container">
-   <a class="navbar-brand visually-hidden" href="#">
+   <a class="navbar-brand visually-hidden" href="https://bemktech.com.br/site-fncc">
       <img src="https://bemktech.com.br/site-fncc/assets/imagens/logofncc.webp" alt="LOGO FNCC MOBILE" class="logo-mobile">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
