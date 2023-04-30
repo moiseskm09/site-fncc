@@ -164,7 +164,49 @@
         </div>
     </div>
 </div>
-          
+          <!-- modal aviso -->
+          <div class="modal fade" id="success" style="border-radius: 15px;">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document" style="border-radius: 15px;">
+        <div class="modal-content">
+            <div class="modal-body p-1" style="border-radius: 15px;">
+                <div class="text-center">
+                    <p class="fw-bold">Sua mensagem foi enviada!</p>
+                    <a href="https://bemktech.com.br/site-fncc/fale-conosco" class="btn btn-success">Fechar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          <div class="modal fade" id="error" style="border-radius: 15px;">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document" style="border-radius: 15px;">
+        <div class="modal-content">
+            <div class="modal-body p-1" style="border-radius: 15px;">
+                <div class="text-center">
+                    <p class="fw-bold text-danger">Não conseguimos enviar sua mensagem!<br> Por favor, tente novamente!</p>
+                    <a href="https://bemktech.com.br/site-fncc/fale-conosco" class="btn btn-success">Fechar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          <!-- modal aviso -->
+          <?php
+         if(empty($_GET["aviso"])){
+}else{
+    $aviso = $_GET["aviso"]; 
+    if($aviso == "sucesso"){
+        echo '<script type="text/javascript">
+    $(window).on("load",function(){
+    $("#success").modal("show"); });
+</script>';
+    }else{
+         echo '<script type="text/javascript">
+    $(window).on("load",function(){
+    $("#error").modal("show"); });
+</script>';
+    }
+}
+?>
       </div>
       <?php include_once '../assets/rodape.php';?>
       <?php include_once '../assets/voltartopo.php';?>

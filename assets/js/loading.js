@@ -6,6 +6,12 @@ $(function () {
             getResponse();
         }       
     });
+    $('.loading-associe').click(function () {
+        if (nome.value === '' || email.value === '' || telefone.value === '') {
+        } else {
+            getResponse();
+        }       
+    });
 });
 
 

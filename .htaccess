@@ -4,7 +4,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteCond %{REQUEST_FILENAME} !-U
 RewriteRule ^noticias/news-express/([A-Za-z0-9-]+)$ noticias/news-express/?noticia=$1
-
+RewriteRule ^fale-conosco/([A-Za-z0-9-]+)$ fale-conosco/?aviso=$1
+RewriteRule ^associe-se/([A-Za-z0-9-]+)$ associe-se/?aviso=$1
 # Cache de arquivo
 #<FilesMatch "\.(js|css|gif|png|jpeg|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$">
 #Header set Cache-Control "max-age=5184000"

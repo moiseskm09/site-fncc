@@ -107,7 +107,7 @@
                     </div>
                       <div class="col-md-6 col-lg-6 col-12 mx-auto text-center g-0">
                         
-                        <form action="#" class="form-associe-se">
+                          <form action="email.php" method="POST" class="form-associe-se">
                           <h5 class="text-white">Ou se preferir, solicitar um contato</h5>
                           <img id="img-esquerda" src="../assets/imagens/fundos/fundo-contato-associese2.svg" alt="fundo"/>
                           <img id="img-direita" src="../assets/imagens/fundos/fundo-contato-associese.svg" alt="fundo"/>
@@ -115,24 +115,26 @@
                                 
                                   <div class="col-12">
                                     <div class="form-floating mb-3">
-  <input type="text" class="form-control" id="floatingInput" placeholder="Seu nome">
+                                        <input type="text" class="form-control"  name="nome" id="nome" placeholder="Seu nome" required>
   <label for="floatingInput">Seu nome</label>
 </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInput" placeholder="Seu E-mail">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail" required>
   <label for="floatingInput">Seu E-mail</label>
 </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating mb-3">
-  <input type="tel" class="form-control" id="floatingInput" placeholder="Seu Telefone">
+                                        <input type="tel" class="form-control phone_with_ddd" name="telefone" id="telefone" placeholder="Seu Telefone" required>
   <label for="floatingInput">Seu Telefone</label>
 </div>
                                 </div>
+                                  <input type="hidden" class="form-control" name="soma">
+                                  
                                 <div class="col-12">
-                                  <button type="submit" class="btn btn-lg btn-success">SOLICITAR CONTATO</button>
+                                  <button type="submit" class="btn btn-lg btn-success loading-associe">SOLICITAR CONTATO</button>
                                 </div>
                             </div>
                         </form>
@@ -141,6 +143,66 @@
                 </div>
             </div>
         </section>
+          <div class="modal fade" id="loadingModal" style="border-radius: 15px;">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document" style="border-radius: 15px;">
+        <div class="modal-content">
+            <div class="modal-body p-1" style="border-radius: 15px;">
+                <div class="text-center">
+                    <div class="spinner-border text-success text-center" role="status">
+                        <span class="sr-only"></span>
+                    </div>
+                    <div class="text-center">
+                        <div class="loader" id="loader"></div>
+                        <h6 id="loadingModal_content"></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          <!-- modal aviso -->
+          <div class="modal fade" id="success" style="border-radius: 15px;">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document" style="border-radius: 15px;">
+        <div class="modal-content">
+            <div class="modal-body p-1" style="border-radius: 15px;">
+                <div class="text-center">
+                    <p class="fw-bold">Sua mensagem foi enviada!</p>
+                    <a href="https://bemktech.com.br/site-fncc/associe-se" class="btn btn-success">Fechar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          <div class="modal fade" id="error" style="border-radius: 15px;">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document" style="border-radius: 15px;">
+        <div class="modal-content">
+            <div class="modal-body p-1" style="border-radius: 15px;">
+                <div class="text-center">
+                    <p class="fw-bold text-danger">Não conseguimos enviar sua mensagem!<br> Por favor, tente novamente!</p>
+                    <a href="https://bemktech.com.br/site-fncc/associe-se" class="btn btn-success">Fechar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          <!-- modal aviso -->
+          <?php
+         if(empty($_GET["aviso"])){
+}else{
+    $aviso = $_GET["aviso"]; 
+    if($aviso == "sucesso"){
+        echo '<script type="text/javascript">
+    $(window).on("load",function(){
+    $("#success").modal("show"); });
+</script>';
+    }else{
+         echo '<script type="text/javascript">
+    $(window).on("load",function(){
+    $("#error").modal("show"); });
+</script>';
+    }
+}
+?>
       </div>
       <?php include_once '../assets/rodape.php';?>
       <?php include_once '../assets/voltartopo.php';?>
@@ -150,5 +212,8 @@
     <script src="../assets/js/menu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/loading.js"></script>
+    <script src="../assets/js/mask.js"></script>
+    <script src="../assets/js/cp_mascaras.js"></script>
   </body>
 </html>
