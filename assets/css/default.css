@@ -955,3 +955,11 @@ text-decoration: none;
     font-size: 14px;
 }
 /* editais */
+
+label.error {
+    position: inherit;
+    padding-bottom: 0;
+    text-align: start;
+    font-size: 15px;
+    color:#dc3545;
+}

@@ -86,43 +86,43 @@
                             <img id="img-esquerda-contato2" src="../assets/imagens/fundos/fundo-contatos-contate-nos2.svg" alt="fundo"/>
                             <img id="img-direita-contato2" src="../assets/imagens/fundos/fundo-contatos-contate-nos2.svg" alt="fundo"/>
                             <h2>Mande Uma <span class="destaque">Mensagem</span></h2>
-                              <form action="#" class="mt-3 mb-3">
+                              <form class="mt-3 mb-3" method="POST" action="email.php">
                                   <div class="row">
                                       <div class="col-12">
                                         <div class="form-floating mb-3">
-  <input type="text" class="form-control" id="nome" placeholder="Nome">
+  <input type="text" class="form-control" id="nome" name="nome"placeholder="Nome" required>
   <label for="nome">Seu melhor nome <span class="text-danger"> * </span></label>
 </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating mb-3">
-  <input type="email" class="form-control" id="email" placeholder="E-mail">
+  <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
   <label for="email">Seu melhor e-mail <span class="text-danger"> * </span></label>
 </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating mb-3">
-  <input type="tel" class="form-control" id="telefone" placeholder="telefone">
+  <input type="tel" class="form-control phone_with_ddd" id="telefone" name="telefone" placeholder="telefone" required>
   <label for="telefone">Seu melhor telefone <span class="text-danger"> * </span></label>
 </div>
                                     </div>
                                       <div class="col-12">
                                         <div class="form-floating">
-  <textarea class="form-control" placeholder="Sua melhor mensagem" id="mensagem" style="height: 150px"></textarea>
+  <textarea class="form-control" placeholder="Sua melhor mensagem" id="mensagem" name="mensagem" style="height: 150px" required></textarea>
   <label for="mensagem">Sua melhor mensagem <span class="text-danger"> * </span></label>
 </div>
                                     </div>
                                       <div class="col-12">
-                                        <div class="input-group mt-3 mb-3">
+                                        <div class="input-group mt-2 mb-3">
   <span class="input-group-text">Quanto é 1 + 1?</span>
   <div class="form-floating">
-    <input type="text" class="form-control" id="soma" placeholder="soma">
+      <input type="text" class="form-control" id="soma" name="soma" placeholder="soma" required>
     <label for="soma">Informe o resultado da pergunta ao lado</label>
   </div>
 </div>
                                     </div>
                                       <div class="col-12">
-                                        <button class="btn btn-lg btn-success mb-3 mt-2">Enviar Mensagem</button>
+                                        <button class="btn btn-lg btn-success mb-3 mt-2 loading" type="submit">Enviar Mensagem</button>
                                     </div>
                                 </div>
                             </form>
@@ -147,6 +147,24 @@
                 </div>
               </div>
           </section>
+         <div class="modal fade" id="loadingModal" style="border-radius: 15px;">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document" style="border-radius: 15px;">
+        <div class="modal-content">
+            <div class="modal-body p-1" style="border-radius: 15px;">
+                <div class="text-center">
+                    <div class="spinner-border text-success text-center" role="status">
+                        <span class="sr-only"></span>
+                    </div>
+                    <div class="text-center">
+                        <div class="loader" id="loader"></div>
+                        <h6 id="loadingModal_content"></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          
       </div>
       <?php include_once '../assets/rodape.php';?>
       <?php include_once '../assets/voltartopo.php';?>
@@ -156,5 +174,8 @@
     <script src="../assets/js/menu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/loading.js"></script>
+    <script src="../assets/js/mask.js"></script>
+    <script src="../assets/js/cp_mascaras.js"></script>   
   </body>
 </html>
